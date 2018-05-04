@@ -1,0 +1,403 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*多元路加页*/
+.company_info{
+	width:100%;
+	position:relative;
+	box-sizing:border-box;
+	/*margin-top:80px;*/
+	overflow: hidden;
+}
+.company_info_c{
+	width:1140px;
+	margin:0 auto;
+	color:#fff;
+	position:absolute;
+	left:50%;
+	margin-left:-570px;
+	top:100px;
+	z-index:2;
+	/*position:relative;*/
+}
+.company_info img{
+	width: 1920px;
+	position: relative;
+	left: 50%;
+	margin-left: -960px;
+}
+.company_info_c h2{
+	font-size:58px;
+	letter-spacing:8px;
+	color:#333;	
+}
+.company_info_c p{
+	width:45%;
+	font-size:16px;
+	color:#5F636A;
+	line-height:30px;
+	margin-top:20px;
+}
+
+.nums_company{
+	display: none;
+	padding:70px 0 80px;
+	background:#fff;
+}
+.nums_company_c{
+	width:1140px;
+	margin:0 auto;
+}
+.nums_company_c li{
+	display:inline-block;
+	width:33%;
+	text-align:center;
+}
+
+
+.nums_company_c li p{font-size:72px; line-height:60px; display: inline-block;}
+.nums_company_c li p em,.nums_company_c li span{font-size:16px;}
+
+.service_cont{
+	/*max-width:1600px;*/
+	margin:0 auto 100px;
+	position:relative;
+}
+.service_cont_c{
+	/*width:1140px;
+	background:#F2F0F0;
+	height:620px;
+	margin:60px auto 0;
+	box-sizing:border-box;
+	padding:330px 40px 50px 0;*/
+	height:440px;
+	margin-bottom:100px;
+	position:relative;
+}
+.end_time_dy{ 
+	display: none;
+	font-size:14px; 
+	color:#b3b3b3;
+	margin:0 0 20px 20px;
+}
+.dy_cont_bg{height:416px; background:#e8e8ea; border-bottom:15px solid #f2f0f0; width:80%; position:absolute; right:0; top:0;}
+.dy_bank_block{ position:absolute; left:0; top:0; width:80%;}
+.dy_bank_block .banking{
+	position:relative;
+	width: 49%;
+	overflow: hidden;
+}
+.dy_bank_block .banking em{display:block; width:80px; height:100%; background:url("../../images/zx/pic_bg_up.png") no-repeat right center; position:absolute; right:0; top:0;}
+
+
+.dy_bankcont{ 
+	padding:30px 0;
+	width: 45%;
+	margin-left: 6%;
+}
+.dy_bankcont h3{font-size:48px; letter-spacing:6px; color:#333;}
+.dy_bankcont .bank_tabtit{ padding-top: 6px; border-bottom:1px solid #ccc; }
+.dy_bankcont .bank_tabtit span{font-size:14px; color:#333; margin-right:2%; display:inline-block; line-height: 44px;padding: 0 6px; cursor:pointer;}
+.dy_bankcont .bank_tabtit span.cur{border-bottom:1px solid #d70000;}
+.bank_tab_dy{width:60%; padding-top:15px; display:none;}
+.bank_tab_dycur{display:block;}
+.bank_tab_dy h5{font-size:36px; color:#333;}
+.bank_tab_dy p{font-size:14px; color:#5f636a; line-height:26px; margin:10px 0 15px;}
+.bank_tab_dy .look_more{font-size:12px; color:#5f636a; display:block; background:url("../../images/zx/more-icon.png") no-repeat left center; line-height:22px; padding-left:30px;}
+
+.service_cont_cr{}
+.service_cont_cr .dy_bank_block{right:0; left:inherit;}
+.service_cont_cr .dy_bank_block .banking{margin-right:0; float:right; }
+.service_cont_cr .dy_bank_block .dy_bankcont{margin-left:70px;}
+.service_cont_cr .dy_bank_block .banking em{ background:url("../../images/zx/pic_bg_up_l.png") no-repeat right center; left:0; right:inherit;}
+
+.dy_bank_block .banking .mb-jr-tit{
+	display: none;
+	font-size: 32px;
+	color: #333;
+	padding: 20px 4%;
+	background: #fff;
+}
+.dy_bankcont .mb-yw-list{
+	display: none;
+}
+.dy_bankcont .mb-yw-list ul li{
+	padding: 10px 0;
+	border-bottom: 1px solid #f1f1f1;
+}
+.dy_bankcont .mb-yw-list ul li a{
+	display: block;
+	font-size: 14px;
+	color: #333;
+	line-height: 24px;
+	background: url('../../images/zx/more-icon.png') no-repeat;
+	background-position: right center;
+}
+.web_sites_center .web_sites_ul li .si-link01,
+.web_sites_center .web_sites_ul li .si-link02{
+	font-size: 14px;
+	color: #333;
+}
+
+/*-------------加入路加----------------*/
+.jr_zp_cont{
+	max-width:970px; 
+	width: 100%;
+	margin:40px auto 40px;
+	overflow: auto;
+}
+
+
+/*多元路加*/
+@media screen and (max-width: 1440px) {
+  .dy_cont_bg{width:100%;}	
+  .dy_bank_block{width:100%;}
+  /*.dy_bank_block .banking{margin-right:50px;}*/
+  .service_cont_cr .dy_bank_block .dy_bankcont{margin-left:50px;}
+  .dy_bankcont{width:40%;}
+}
+
+@media screen and (max-width: 1280px) {
+  	.dy_bank_block .banking{width:53%; overflow:hidden;}
+	.dy_bank_block .banking img{ margin-left:-10.6%;}
+	.service_cont_cr .dy_bank_block .banking{float:right;}
+	.bank_tab_dy{
+		width: 100%;
+	}
+}
+@media screen and (max-width: 1080px) {
+	.nums_company_c{width:96%;}
+	/*.company_info{margin-top:100px;}*/
+	.company_info_c{width:96%; margin-left:-48%;}
+	.company_info_c h2{font-size:36px; letter-spacing:4px;}
+	.company_info_c p{width: 54%;margin-top: 10px; font-size:14px; line-height:26px;}
+	.service_cont_c{height:inherit; position:inherit;}
+	.dy_bank_block{position:inherit;}
+	.dy_bank_block .banking{width:100%; margin:0;}
+	.dy_bank_block .banking img{width:100%; margin:0; max-height:400px;}
+	.dy_bankcont{width:100%; background:#e8e8ea; padding:30px 4%; box-sizing:border-box;}
+	.bank_tab_dy{width:80%;}
+	.service_cont_cr .dy_bank_block .dy_bankcont{
+		margin:0;
+		
+	}
+	.dy_bankcont{
+		margin-left: 0;
+	}
+
+}
+@media screen and (max-width: 768px) {
+	.nums_company_c li p{font-size:48px;line-height: 40px;}	
+	.company_info_c p{width:100%; font-size:14px; line-height:22px;}
+	.bank_tab_dy{width:96%;}
+	.company_info_c .bread_nav p{ width:70%;}
+	.bread_nav{margin-top:-20px;}
+	.company_info_c h2{font-size:24px; letter-spacing:2px;}
+	.bread_nav{display:none;}
+	.company_info_c h2{
+		font-size: 24px;
+	}
+	.nums_company{
+		display: none;
+	}
+	.end_time_dy{
+		display: none;
+	}
+	.dy_bankcont{
+		padding: 4px 4%;
+	}
+	.dy_bankcont h3{
+		display: none;
+	}
+	.dy_bank_block .banking .mb-jr-tit{
+		display: block;
+		font-size: 24px;
+	}
+	.dy_bankcont .bank_tabtit{
+		display: none;
+	}
+	.dy_bankcont,
+	.dy_cont_bg{
+		background: none;
+		border: none;
+	}
+	.dy_bankcont .mb-yw-list{
+	display: block;
+	}
+	.dy_bankcont .bank_tabcont{
+		display: none;
+	}
+	.service_cont_cr .dy_bank_block .banking em{
+		display: none;
+	}
+	.service_cont_c{
+		margin-bottom: 0;
+	}
+}
+
+@media screen and (max-width: 640px) {
+	.company_info_c p{ }
+	.nums_company_c li{width:100%; margin-bottom:40px;}
+	.nums_company{padding-bottom:40px;}
+	.dy_bankcont h3{font-size:32px;}
+	.bank_tab_dy h5{font-size:24px;}
+	.service_cont,.service_cont_c{margin-bottom:30px;}
+	
+	
+}
+
+@media screen and (max-width: 480px) {
+	
+	.company_info_c h2{font-size:24px; letter-spacing:0px;margin-top: -16px;}
+}
+
+
+
+/*------------------路加医疗相关网站----------------*/
+.bread_nav{ font-size:12px; color:#5f636a;}
+.bread_nav p{display:inline-block; font-size:12px;}
+.bread_nav p a{
+	color: #5f636a;
+}
+.bread_nav p a:hover{
+	color: #333;
+}
+.bread_nav p span{ color:#b3b3b3; margin:0 8px;}
+.company_info_cr{top:30px;}
+
+.web_sites_cont{ width:1140px; margin:-60px auto 0; background:#fff; border-top:2px solid #d70000; position:relative;}
+.web_sites_center{width:640px; margin:0 auto; padding:50px 0 100px;}
+.web_sites_center h2{font-size:22px; color:#d70000; margin-bottom:10px;}
+.web_sites_ul{border-top:1px solid #f1f1f1; margin-bottom:40px;}
+.web_sites_ul li{font-size:14px; line-height:48px; border-bottom:1px solid #f1f1f1; color:#333;}
+/*.web_sites_ul li span,.web_sites_ul li a{font-weight:bolder;}*/
+.web_sites_ul li a:hover{ color:#d70000;}
+
+@media screen and (max-width: 1440px) {
+	/*.company_info_c h2{font-size:36px;}*/
+	.web_sites_cont{margin-top:-40px;}
+}
+@media screen and (max-width: 1024px) {
+	/*.company_info_c h2{font-size:36px;}*/
+	.web_sites_cont{margin-top:0px; width:100%;}
+	/*.company_info img{
+		width: 1024px;
+		margin-left: -512px;
+	}*/
+	.company_info img{
+		width: 1024px;
+		position: relative;
+		left: 50%;
+		margin-left: -512px;
+	}
+}
+@media screen and (max-width: 640px) {
+	.web_sites_center{width:96%;}
+	.company_info img{
+		width: 768px !important;
+		left: 50%;
+		margin-left: -384px !important;
+	}
+}
+
+
+/*------------------搜索----------------*/
+.search_block{}
+.search_block .search_txt{ width:70%; height:42px; line-height:40px; border:1px solid #ccc; box-sizing:border-box; padding:0 20px; font-size:14px; color:#333;}
+.search_block .search_bt{ border:none; width:28%; height:42px; background:#d70000; color:#fff; font-size:16px; line-height:42px; text-align:center;}
+.search_run{font-size:14px; color:#5f636a; margin-top:15px;}
+.search_run span{color:#d70000;}
+.result_cont{margin-top:60px;}
+.result_cont .result_list{ font-size:14px; color:#5f636a; font-weight:bolder; margin-bottom:50px;}
+.result_cont .result_list span{color:#d70000;font-weight:bolder;}
+.result_cont .result_list h4{ color:#333; font-size:18px;font-weight:bolder;}
+.result_cont .result_list .time_line{margin:8px 0;}
+.result_cont .result_list .result_pcont{line-height:28px; font-weight:bolder;}
+.result_list a{text-decoration:underline;}
+.result_list a:hover{color:#d70000;}
+
+/*------------------页码----------------*/
+.search_page{ margin-top:10px;}
+.search_page a{float:left; display:block;width:45px; height:45px; line-height:45px; text-align:center; color:#808080; background:#fff; font-size:12px; margin-right:6px;}
+.search_page a.cur,.search_page a:hover{background:#d70000; color:#fff;}
+
+@media screen and (max-width: 768px){
+	.web_sites_center .web_sites_ul li .si-link01{
+		display: block;
+		width: 100%;
+		background: url('../../images/zx/more-icon.png') no-repeat;
+		padding-right: 25px;
+		background-position: right center;
+	}
+	.web_sites_center .web_sites_ul li .si-link02{
+		display: none;
+	}
+}
+.company_info .if-opacity-bg{
+	max-width: 1200px;
+	margin: -300px auto 0;
+	background: url("../../images/zx/opacity-bg.png") repeat-y;
+	position: relative;
+	z-index: 8;
+	padding-top: 30px;
+}
+.hbl-26{
+	/*margin-top: 120px;*/
+	overflow: hidden;
+}
+@media screen and (max-width: 1080px){
+	.hbl-26{
+		/*margin-top: 100px;*/
+	}
+}
+@media screen and (max-width: 960px){
+	.hbl-26{
+		/*margin-top: 80px;*/
+	}
+}
+
+@media screen and (max-width: 1600px){
+	.company_info img{
+		width: 1600px;
+		margin-left: -800px;
+	}
+}
+@media screen and (max-width: 1366px){
+	.company_info img{
+		width: 1366px;
+		margin-left: -683px;
+	}
+}
+@media screen and (max-width: 1024px){
+	.company_info img{
+		width: 1024px;
+		margin-left: -512px;
+	}
+}
+@media screen and (max-width: 1600px){
+	.company_info .if-opacity-bg{
+		margin: -250px auto 0;
+	}
+}
+@media screen and (max-width: 1024px){
+	.company_info .if-opacity-bg{
+		margin: 0 auto 0;
+	}
+	.company_info{
+		/*margin-top: 30px;*/
+	}
+}
+
+.f-logo{margin-bottom:20px;}
+
+
+
+
+
+
+
+
+
+
+
+
