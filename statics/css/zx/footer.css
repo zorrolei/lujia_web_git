@@ -1,0 +1,176 @@
+.footer{
+	width: 100%;
+	border-top: 1px solid #d5000f;
+	background-color: #e8e8ea;
+	
+}
+
+.footer .footer-content .icon_li div.wx-qrcode{
+    width: 120px;
+    height: 179px;
+    position: absolute;
+    bottom: -165px;
+    left: 18px;
+    z-index: 99;
+    padding-top: 20px;
+    display: none;
+}
+
+.footer  .footer-content .icon_li>div.icon_weixin:hover div.wx-qrcode{
+	display: block;
+}
+
+.footer-content{
+	position: relative;
+	width: 1080px;
+	margin:0 auto 50px;
+	padding-top:55px;
+
+
+}
+
+.ft-vertical-block{
+	float: left;
+	width: 18%;
+	padding-right: 2%;
+	font-size: 12px;
+	line-height: 1.8;
+	/*margin-left: 100px;*/
+
+}
+
+.ft-vertical-block:first-child{
+	margin-left: 0px;
+}
+
+.ft-nav-tit{
+	font-size:18px;
+	line-height: 2;
+	margin-top: 30px;
+	font-weight: normal;
+}
+.ft-nav-item{margin-top:10px;}
+.ft-nav-item ul li{
+	cursor: pointer;
+}
+
+.ft-nav-list{
+	position: relative;
+	margin-top:10px;
+}
+
+.ft-nav-list ul{
+	margin-left: 18px;
+}
+
+/*.ft-nav-tit-sml{
+	margin-top:10px;
+}*/
+
+.ft-vertical-block .ft-nav-list:first-child{
+	margin-top:0;
+}
+
+.foot-btm{
+	text-align: center;
+	border-top: #ccc solid 1px;
+	padding:40px 30px ;
+}
+.foot-btm ul li,.ft-nav-list ul li{
+	list-style: disc;
+	margin-bottom:3px;
+}
+.ft-nav-tit-sml{margin-bottom:6px; font-weight:600;}
+
+.ft-nav-list ul,.foot-btm ul{
+	list-style-type: disc;
+
+}
+
+.foot-btm ul{
+	margin: 0 0 10px;
+}
+
+.foot-btm ul li{
+	display: inline-block;
+	font-size: 14px;
+	margin-left: 5px;
+}
+
+.foot-btm ul li i{
+	margin-left: 5px;
+}
+.icon_li{margin-top:10px;}
+.foot-btm p{
+	color: #b3b3b3;
+	line-height: 24px;
+}
+
+.footer-content .icon_li>div{
+	display: inline-block;
+	height: 27px;
+	vertical-align: middle;
+	cursor: pointer;
+}
+.footer-content .icon_li>div img{
+	/*display: inline-block;*/
+	height: 100%;
+}
+
+.footer-content .icon_li>div.icon_weixin{
+	margin-left:16px;
+	height: 31px;
+}
+
+.footer-content .contact-us{
+	margin: 0px 0 20px;
+}
+.contact-us p{line-height: 24px;}
+.ui-more-btn{font-weight:bold;}
+
+.ui-more-btn i{
+	display: inline-block;
+	width: 25px;
+	height: 25px;
+	background:url("../../images/zx/allicon.png") no-repeat;
+	background-position:-423px -245px; 
+	vertical-align: middle;
+	margin-right: 4px;
+}
+
+@media screen and (max-width: 1600px) {
+
+}
+
+@media screen and (max-width: 1366px) {
+
+}
+
+
+
+@media screen and (max-width: 1280px) {
+	
+
+}
+
+@media screen and (max-width: 1080px) {
+
+}
+@media screen and (max-width: 1024px) {
+	/*.ft-vertical-block{margin-left:60px;}*/
+	.footer-content{width:88%;}
+}
+
+@media screen and (max-width: 960px) {
+	.footer-content{
+		display: none;
+	}
+
+	.footer{
+		border-top: 0px solid #d5000f;
+		
+	}
+}
+@media screen and (max-width: 768px) {
+	.foot-btm ul{display:none;}
+}

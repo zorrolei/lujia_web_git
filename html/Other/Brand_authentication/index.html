@@ -1,0 +1,911 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="renderer" content="webkit">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">
+    <meta name="description" content="Description...">
+    <meta name="keywords" content="keyword1,keyword2,keyword3..">
+    <title>品牌认证 - 路加医疗</title>
+    <link href="../../../statics/css/zx/resect.css" rel="stylesheet" type="text/css" >
+    <link href="../../../statics/css/zx/reset.css" type="text/css" rel="stylesheet" />
+    <link href="../../../statics/css/zx/swiper.min.css" type="text/css" rel="stylesheet" />
+    <link href="../../../statics/css/zx/header.css" type="text/css" rel="stylesheet" />
+    <link href="../../../statics/css/zx/content.css" type="text/css" rel="stylesheet" />
+    <link href="../../../statics/css/zx/main.css" type="text/css" rel="stylesheet" >
+    <link href="../../../statics/css/zx/main-h.css" type="text/css" rel="stylesheet">
+    <link href="../../../statics/css/zx/footer.css" type="text/css" rel="stylesheet">
+   <!--
+    <link rel="stylesheet" type="text/css" href="/statics/css/zx/jquery.fullpage.css">
+    <link rel="stylesheet" type="text/css" href="/statics/css/zx/index.css">
+    -->
+    <script>
+    var CWRUMLICENCE = 'J45Engw88NeyneJHDCI8SDoj6x6VF2UO';
+  </script>
+  <script src="https://cloudwise-apm.c.citic/rum/EndUserAgentPreload.js"></script>
+
+    <!--<script src="/statics/js/zx/vendor/jquery-1.11.1.min.js"></script>-->
+    <script src="../../../statics/js/zx/jquery-1.10.2.min.js"></script>
+    <!--[if lte IE 8]>
+    <script src="http://cdn.bootcss.com/jquery/1.9.0/jquery.min.js"></script>
+    <![endif]-->
+    <script src="../../../statics/js/zx/vendor/jquery.easings.min.js"></script>
+    <script src="../../../statics/js/zx/blocksit.min.js" type="text/javascript"></script>
+    
+    <script src="../../../statics/js/zx/respond.min.js" type="text/javascript"></script>
+    <script src="../../../statics/js/zx/html5shiv.min.js" type="text/javascript"></script>
+    <script src="../../../statics/js/zx/jquery.placeholder.js" type="text/javascript"></script>
+    <script src="../../../statics/js/zx/util.js" type="text/javascript"></script>
+    <script src="../../../statics/js/zx/yhd.js" type="text/javascript"></script>
+    <script src="../../../statics/js/zx/swiper.min.js"  type="text/javascript"></script>
+    <script src="../../../statics/js/zx/header.js" type="text/javascript" ></script>  
+    <script src="../../../statics/js/zx/content.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+      var browser={
+          versions:function(){
+              var u = navigator.userAgent, app = navigator.appVersion;
+              return {
+                  trident: u.indexOf('Trident') > -1, //IE内核
+                  presto: u.indexOf('Presto') > -1, //opera内核
+                  webKit: u.indexOf('AppleWebKit') > -1, //苹果、谷歌内核
+                  gecko: u.indexOf('Gecko') > -1 && u.indexOf('KHTML') == -1,//火狐内核
+                  mobile: !!u.match(/AppleWebKit.*Mobile.*/), //是否为移动终端
+                  ios: !!u.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/), //ios终端
+                  android: u.indexOf('Android') > -1 || u.indexOf('Adr') > -1, //android终端
+                  iPhone: u.indexOf('iPhone') > -1 , //是否为iPhone或者QQHD浏览器
+                  iPad: u.indexOf('iPad') > -1, //是否iPad
+                  webApp: u.indexOf('Safari') == -1, //是否web应该程序，没有头部与底部
+                  weixin: u.indexOf('MicroMessenger') > -1, //是否微信 （2015-01-22新增）
+                  qq: u.match(/\sQQ/i) == " qq" //是否QQ
+              };
+          }()
+          //language:(navigator.browserLanguage || navigator.language).toLowerCase();
+      }
+      if(browser.versions.mobile||browser.versions.android||browser.versions.ios){
+          window._mobile = true;
+      }else{
+        window._mobile = false;
+      }
+    </script>
+    <script>
+    var mySwiper = new Swiper('.nav-cont-swp1',{
+      pagination: '.nav-cont-page1',
+      loop:true,
+      grabCursor: true,
+      paginationClickable: true
+    });
+  
+    $('.nav-cont-al').on('click', function(e){
+      e.preventDefault()
+      mySwiper.swipePrev()
+    });
+  
+    $('.nav-cont-ar').on('click', function(e){
+      e.preventDefault()
+      mySwiper.swipeNext()
+    });
+  </script>
+  </head>
+  <body>
+    <div class="bdsharebuttonbox right-win">
+      
+      <div class="btn-share">
+        <a class="r-w-link01 fx-bt" href="javascript:;"><img src="../../../statics/images/zx/rightIcon01.png" alt=""></a>
+        <div class="jt-list ">
+          <ul>
+            <li><a href="index.html#" class="bds_tsina j-sina" data-cmd="tsina" title="分享到新浪微博">新浪微博</a></li>
+            <li><a href="index.html#" class="bds_weixin j-wechat" data-cmd="weixin" title="分享到微信">微信</a></li>
+          </ul>
+        </div>
+      </div>
+      <a href="index.html#" class="bds_print r-w-link02 fx-bt" data-cmd="print" title="分享到打印"><img src="../../../statics/images/zx/rightIcon02.png" alt=""></a>
+      <a class="r-w-link03 fx-bt" href="javascript:;"><img src="../../../statics/images/zx/rightIcon03.png" alt="">
+      </a>
+    </div>
+    <script>
+    window._bd_share_config = {
+      "common": {
+        "bdSnsKey": {},
+        "bdText": "",
+        "bdMini": "2",
+        "bdMiniList": false,
+        "bdPic": "",
+        "bdStyle": "0",
+        "bdSize": "16"
+      },
+      "share": {},
+    };
+    with(document) 0[(getElementsByTagName('head')[0] || body).appendChild(createElement('script')).src = 'https://www.group.citic/static/api/js/share.js?v=89860593.js?cdnversion=' + ~ ( - new Date() / 36e5)];
+    </script>
+<!--<![endif]-->
+<div class="wrapper" id="wrapper">
+  <div class="header">
+    <div class="ui-topNav-wap">
+      <div class="ui-topNav">
+        <div class="top-logo"><a href="../../../index.html"><div class="log-img"><img src="../../../statics/images/zx/logo.png"></div></a></div>
+        <div class="m-nav-topBtn">
+          <div class="m-nav-up"><img  src="../../../statics/images/zx/m-topNav-up.png"></div>
+          <div class="m-nav-down"><img src="../../../statics/images/zx/m-topNav-down.png"></div>
+        </div>
+        <ul class="ui-navlist">
+         <!--
+                        -->
+                              <!--
+                                -->
+             <li class="ui-nav-btn ui-nav-aboutBtn ">
+              <a href="../../About/index.html">
+                <div class="nav-btn-tit">关于路加</div>
+                <i class="nav-btn-bg"></i>
+              </a>
+            </li>
+                          <!--
+                              -->
+             <li class="ui-nav-btn no-expands">
+              <a href="../../News/index.html">
+                <div class="nav-btn-tit">今日路加</div>
+                <i class="nav-btn-bg"></i>
+              </a>
+            </li>
+                          <!--
+                              -->
+             <li class="ui-nav-btn ">
+              <a href="../../Business/index.html">
+                <div class="nav-btn-tit">多元路加</div>
+                <i class="nav-btn-bg"></i>
+              </a>
+            </li>
+                          <!--
+                              -->
+             <li class="ui-nav-btn ">
+              <a href="../../Cooperation/index.html">
+                <div class="nav-btn-tit">党的建设</div>
+                <i class="nav-btn-bg"></i>
+              </a>
+            </li>
+                          <!--
+                              -->
+             <li class="ui-nav-btn ">
+              <a href="../../Duty/index.html">
+                <div class="nav-btn-tit">责任路加</div>
+                <i class="nav-btn-bg"></i>
+              </a>
+            </li>
+                          <!--
+                              -->
+             <li class="ui-nav-btn ">
+              <a href="../../medias/index.html">
+                <div class="nav-btn-tit">媒体中心</div>
+                <i class="nav-btn-bg"></i>
+              </a>
+            </li>
+                          <!--
+                              -->
+             <li class="ui-nav-btn ">
+              <a href="../../Join/index.html">
+                <div class="nav-btn-tit">联系我们</div>
+                <i class="nav-btn-bg"></i>
+              </a>
+            </li>
+                          <!--
+                            -->
+            <!--
+                        -->
+          <li class="ui-nav-btn so">
+            <a href="index.html#">
+              <div class="nav-btn-tit">
+                <img class="icon-search" src="../../../statics/images/zx/icon-search.png">
+                <img class="icon-search-w" src="../../../statics/images/zx/icon-search-w.png">
+              </div>
+              <i class="nav-btn-bg"></i>
+            </a>
+          </li>
+          <li class="ui-nav-btn">
+            <a href="index.html#">
+              <div class="nav-btn-tit">中文</div>
+              <i class="nav-btn-bg"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="ui-topNav-bg"></div>
+    </div>
+    
+    <div class="nav-content-warp">
+                                <div class="nav-cont ui-nav-aboutCont clearfix">
+              
+                                                              <div class="nav-cont-bgWarp">
+                <div class="nav-cont-bg">
+                  <img src="../../../statics/images/new/20171221060825530.png">
+                </div>
+              </div>
+                             <div class="nav-cont-txt">
+                    <p>路加医疗是1979年由荣毅仁先生创办的。成立以来，路加医疗充分 发挥了经济改革试点和对外开放窗口的重要作用，通过引进国外资金、先进技术和管理经验，按照国际惯例办事，在计划经济体制中 探索走市场经济的道路，为国家经济建设作出了贡献，在国内外树 立了良好信誉和形象。目前，路加医疗已发展成为一个具有较大规 模的国际化跨国企业集团，也是国内最大的综合性企业集团。</p>
+                    <div class="ui-more-btn">
+                      <a href="../../About/Chairman_Statement.html"><i></i><span>点击了解更多</span></a>
+                    </div>
+                </div>
+                                                          <div class="nav-cont-list ">
+          <p class="nav-cont-ls-tit">关于路加</p>
+                    <div class="nav-cont-items">
+                                                   <div class="nav-cont-item"><p><a href="../../About/Chairman_Statement.html"><i></i><span>董事长致辞</span></p></a></div>
+                                     <div class="nav-cont-item"><p><a href="../../About/Brief_Introduction.html"><i></i><span>走进路加</span></p></a></div>
+                                     <div class="nav-cont-item"><p><a href="../../About/Directors_Senior.html"><i></i><span>集团领导</span></p></a></div>
+                                     <div class="nav-cont-item"><p><a href="../../About/Governance_Risk.html"><i></i><span>路加理念</span></p></a></div>
+                                     <div class="nav-cont-item"><p><a href="../../About/brand_thinking.html"><i></i><span>合作机构</span></p></a></div>
+                                            <div class="nav-cont-item-bg"></div>
+          </div>
+                  </div>
+              </div>
+                   <div class="nav-cont  clearfix">
+              路加新闻            </div>
+                   <div class="nav-cont ui-nav-multCont clearfix">
+              
+                     <div class="nav-cont-bgWarp">
+             <div class="nav-cont-swp">
+                <div class="swiper-container nav-cont-swp1">
+                  <div class="swiper-wrapper">
+                                                                            <div class="swiper-slide">
+                      <div class="nav-cont-swp-bg">
+                        <img src="../../../statics/images/new/20170601101603618.png">
+                      </div>
+                      <div class="content-slide">
+                          <p class="title">银行业务</p>
+                      </div>
+                    </div>
+                                         <div class="swiper-slide">
+                      <div class="nav-cont-swp-bg">
+                        <img src="../../../statics/images/new/20170601101637191.png">
+                      </div>
+                      <div class="content-slide">
+                          <p class="title">房地产</p>
+                      </div>
+                    </div>
+                                         <div class="swiper-slide">
+                      <div class="nav-cont-swp-bg">
+                        <img src="../../../statics/images/new/20170601101711971.png">
+                      </div>
+                      <div class="content-slide">
+                          <p class="title">其他业务</p>
+                      </div>
+                    </div>
+                                                           </div>
+                </div>
+                <div class="pagination nav-cont-page1"></div>
+                <a class="arrow-left nav-cont-al" href="index.html#"></a> 
+                <a class="arrow-right nav-cont-ar" href="index.html#"></a>
+            </div>
+          </div>
+                  <div class="nav-cont-list clearfix">
+          <p class="nav-cont-ls-tit">业务领域</p>
+                                                       <div class="nav-cont-ls-block">
+                    <p class="nav-cont-ls-titSml">金融业务</p>
+                    <div class="nav-cont-items">
+                                                                       <div class="nav-cont-item"><p><a href="../../Business/Business-kfyy.html"><i></i><span>银行业务</span></a></p></div>
+                                                 <div class="nav-cont-item"><p><a href="../../Business/Business-hygl.html"><i></i><span>证券业务</span></a></p></div>
+                                                 <div class="nav-cont-item"><p><a href="../../Business/Business-yxzx.html"><i></i><span>信托业务</span></a></p></div>
+                                                 <div class="nav-cont-item"><p><a href="../../Business/Business-jzepc.html"><i></i><span>保险业务</span></a></p></div>
+                                                 <div class="nav-cont-item"><p><a href="../../Business/Business-yyit.html"><i></i><span>其他金融业务</span></a></p></div>
+                                                                    <div class="nav-cont-item-bg"></div>
+                    </div>
+                  </div>
+                                  <div class="nav-cont-ls-block">
+                    <p class="nav-cont-ls-titSml">实业投资</p>
+                    <div class="nav-cont-items">
+                                                                       <div class="nav-cont-item"><p><a href="../../Business/Non_Financial_Businesses/Resources_Energy/index.html"><i></i><span>资源与能源业务</span></a></p></div>
+                                                 <div class="nav-cont-item"><p><a href="../../Business/Non_Financial_Businesses/Manufacturing/index.html"><i></i><span>制造业</span></a></p></div>
+                                                 <div class="nav-cont-item"><p><a href="../../Business/Non_Financial_Businesses/Engineering_Contracting/index.html"><i></i><span>工程承包业务</span></a></p></div>
+                                                 <div class="nav-cont-item"><p><a href="../../Business/Non_Financial_Businesses/Real_Estate_Infrastructure/index.html"><i></i><span>房地产</span></a></p></div>
+                                                 <div class="nav-cont-item"><p><a href="../../Business/Non_Financial_Businesses/Other_Businesses/index.html"><i></i><span>其他业务</span></a></p></div>
+                                                                    <div class="nav-cont-item-bg"></div>
+                    </div>
+                  </div>
+                                              </div>
+              </div>
+                   <div class="nav-cont  clearfix">
+              
+                                                              <div class="nav-cont-bgWarp">
+                <div class="nav-cont-bg">
+                  <img src="../../../statics/images/new/20171221060850951.png">
+                </div>
+              </div>
+                             <div class="nav-cont-txt fl">
+                  <p class="nav-cont-txtTit">党建文化</p>
+                  <p></p>
+                </div>
+                                                          <div class="nav-cont-list clearfix">
+          <p class="nav-cont-ls-tit">党的建设</p>
+                    <div class="nav-cont-items">
+                                                   <div class="nav-cont-item"><p><a href="../../Cooperation/Cooperation.html"><i></i><span>党建动态</span></p></a></div>
+                                     <div class="nav-cont-item"><p><a href="../../Cooperation/Cooperation_Application.html"><i></i><span>文化基石</span></p></a></div>
+                                            <div class="nav-cont-item-bg"></div>
+          </div>
+                  </div>
+              </div>
+                   <div class="nav-cont  clearfix">
+              
+                                                              <div class="nav-cont-bgWarp">
+                <div class="nav-cont-bg">
+                  <img src="../../../statics/images/new/20171221060819520.png">
+                </div>
+              </div>
+                             <div class="nav-cont-txt fl">
+                  <p class="nav-cont-txtTit">责任路加</p>
+                  <p>路加医疗高度重视履行企业社会责任,依托金融服务与实业投资并举的多元化业务结构,秉承 "为客户提供最好服务,为员工搭建施展才能的平台,为股东创造最大价值,为国家做出最大贡献 "的发展使命 </p>
+                </div>
+                                                          <div class="nav-cont-list clearfix">
+          <p class="nav-cont-ls-tit">社会责任</p>
+                    <div class="nav-cont-items">
+                                                   <div class="nav-cont-item"><p><a href="../../Duty/Mission.html"><i></i><span>服务客户</span></p></a></div>
+                                     <div class="nav-cont-item"><p><a href="../../Duty/Wish.html"><i></i><span>关爱员工</span></p></a></div>
+                                     <div class="nav-cont-item"><p><a href="../../Duty/Values.html"><i></i><span>保护环境</span></p></a></div>
+                                     <div class="nav-cont-item"><p><a href="../../Duty/Honor.html"><i></i><span>回馈社会</span></p></a></div>
+                                            <div class="nav-cont-item-bg"></div>
+          </div>
+                  </div>
+              </div>
+                   <div class="nav-cont  clearfix">
+              
+                                                              <div class="nav-cont-bgWarp">
+                <div class="nav-cont-bg">
+                  <img src="../../../statics/images/new/20180326040127815.png">
+                </div>
+              </div>
+                             <div class="nav-cont-txt fl">
+                  <p class="nav-cont-txtTit">媒体中心</p>
+                  <p></p>
+                </div>
+                                                          <div class="nav-cont-list clearfix">
+          <p class="nav-cont-ls-tit">媒体中心</p>
+                    <div class="nav-cont-items">
+                                                   <div class="nav-cont-item"><p><a href="../../medias/media/index.html"><i></i><span>路加风采</span></p></a></div>
+                                     <div class="nav-cont-item"><p><a href="../../medias/media_news/index.html"><i></i><span>新闻通稿</span></p></a></div>
+                                            <div class="nav-cont-item-bg"></div>
+          </div>
+                  </div>
+              </div>
+                   <div class="nav-cont  clearfix">
+              
+                                                              <div class="nav-cont-bgWarp">
+                <div class="nav-cont-bg">
+                  <img src="../../../uploadfile/2017/1221/20171221060744130.png">
+                </div>
+              </div>
+                             <div class="nav-cont-txt fl">
+                  <p class="nav-cont-txtTit">加入路加</p>
+                  <p>员工的才能和热忱是路加医疗成功的关键 在这里,我们共享一套价值理念,那就是诚信和卓越 路加医疗为您提供学习,发展和成长的空间--为您的事业坚实的基础</p>
+                </div>
+                                                          <div class="nav-cont-list clearfix">
+          <p class="nav-cont-ls-tit">加入路加</p>
+                    <div class="nav-cont-items">
+                                                          <div class="nav-cont-item-bg"></div>
+          </div>
+                  </div>
+              </div>
+                 
+
+  <div class="nav-cont clearfix user_search">
+        <div class="search-bar">
+        <form action="/html/Search/" method="get" class="header-search">
+          
+          <p>
+            <input type="search" name="q" placeholder="搜索..."  class="input-key" /> 
+            <span class="top_menu_submit"> <input type="submit" class="se-reBtn" value=""><img src="../../../statics/images/zx/icon-search.png"></span>
+          </p>
+         
+        </form>
+        </div>
+      </div>
+      <div class="nav-cont clearfix user_leng">
+        <div class="leng-bar">
+					<p class="big5_to_gb">中文简体</p>
+					<p class="gb_to_big5">中文繁体</p>
+          <p><a href="../../../en/index.html">English</a></p>
+        </div>
+      </div>
+    </div>
+    <div class="nav-mobile mobile-content-el">
+      <div class="nav-mobile-item search-bars">
+       <form action="/html/Search/" method="get" class="header-search">
+          <p>
+            <input type="search" name="q" placeholder="搜索..."  class="input-key" /> 
+            <span class="top_menu_submit"> <input type="submit" class="se-reBtn" value=""><img src="../../../statics/images/zx/icon-search.png"></span>
+          </p>
+          <!-- <input type="submit" /> -->
+        </form>
+      </div>
+      <div class="nav-mobile-item">
+        <p><a href="../../../index.html">首页</a></p>
+      </div>
+                            
+            <div class="nav-mobile-menugroup">
+              <div class="nav-mobile-item">
+                <p><a href="../../About/index.html">关于路加</a></p>
+                <div class="m-menu-arrow"><img src="../../../statics/images/zx/m-menu-arrow-l.png"></div>
+              </div>
+                            <div class="nav-mobile-subMenus">
+                                                    <div class="m-sub-menu-item"><p><a href="../../About/Chairman_Statement.html"><i></i><span>董事长致辞</span></a></p></div>
+                                    <div class="m-sub-menu-item"><p><a href="../../About/Brief_Introduction.html"><i></i><span>走进路加</span></a></p></div>
+                                    <div class="m-sub-menu-item"><p><a href="../../About/Directors_Senior.html"><i></i><span>集团领导</span></a></p></div>
+                                    <div class="m-sub-menu-item"><p><a href="../../About/Governance_Risk.html"><i></i><span>路加理念</span></a></p></div>
+                                    <div class="m-sub-menu-item"><p><a href="../../About/brand_thinking.html"><i></i><span>合作机构</span></a></p></div>
+                                                </div>
+                          </div>
+                                    <div class="nav-mobile-item">
+              <p><a href="../../News/index.html">今日路加</a></p>
+            </div>
+                              
+            <div class="nav-mobile-menugroup">
+              <div class="nav-mobile-item">
+                <p><a href="../../Business/index.html">多元路加</a></p>
+                <div class="m-menu-arrow"><img src="../../../statics/images/zx/m-menu-arrow-l.png"></div>
+              </div>
+                                                                    <div class="nav-mobile-subMenus">
+                      <div class="m-sub-menu-item m-menu-sub-tit">
+                        <p><a href="javascript:;"><span>金融业务</span></a></p>
+                      </div>
+                                                                           <div class="m-sub-menu-item">
+                              <p><a href="../../Business/Business-kfyy.html"><i></i><span>银行业务</span></a></p>
+                            </div>
+                                                      <div class="m-sub-menu-item">
+                              <p><a href="../../Business/Business-hygl.html"><i></i><span>证券业务</span></a></p>
+                            </div>
+                                                      <div class="m-sub-menu-item">
+                              <p><a href="../../Business/Business-yxzx.html"><i></i><span>信托业务</span></a></p>
+                            </div>
+                                                      <div class="m-sub-menu-item">
+                              <p><a href="../../Business/Business-jzepc.html"><i></i><span>保险业务</span></a></p>
+                            </div>
+                                                      <div class="m-sub-menu-item">
+                              <p><a href="../../Business/Business-yyit.html"><i></i><span>其他金融业务</span></a></p>
+                            </div>
+                                                                      </div>
+                                      <div class="nav-mobile-subMenus">
+                      <div class="m-sub-menu-item m-menu-sub-tit">
+                        <p><a href="javascript:;"><span>实业投资</span></a></p>
+                      </div>
+                                                                           <div class="m-sub-menu-item">
+                              <p><a href="../../Business/Non_Financial_Businesses/Resources_Energy/index.html"><i></i><span>资源与能源业务</span></a></p>
+                            </div>
+                                                      <div class="m-sub-menu-item">
+                              <p><a href="../../Business/Non_Financial_Businesses/Manufacturing/index.html"><i></i><span>制造业</span></a></p>
+                            </div>
+                                                      <div class="m-sub-menu-item">
+                              <p><a href="../../Business/Non_Financial_Businesses/Engineering_Contracting/index.html"><i></i><span>工程承包业务</span></a></p>
+                            </div>
+                                                      <div class="m-sub-menu-item">
+                              <p><a href="../../Business/Non_Financial_Businesses/Real_Estate_Infrastructure/index.html"><i></i><span>房地产</span></a></p>
+                            </div>
+                                                      <div class="m-sub-menu-item">
+                              <p><a href="../../Business/Non_Financial_Businesses/Other_Businesses/index.html"><i></i><span>其他业务</span></a></p>
+                            </div>
+                                                                      </div>
+                                                            </div>
+                        
+            <div class="nav-mobile-menugroup">
+              <div class="nav-mobile-item">
+                <p><a href="../../Cooperation/index.html">党的建设</a></p>
+                <div class="m-menu-arrow"><img src="../../../statics/images/zx/m-menu-arrow-l.png"></div>
+              </div>
+                                                                    <div class="nav-mobile-subMenus">
+                      <div class="m-sub-menu-item m-menu-sub-tit">
+                        <p><a href="../../Cooperation/Cooperation.html"><span>党建动态</span></a></p>
+                      </div>
+                                                                                           </div>
+                                      <div class="nav-mobile-subMenus">
+                      <div class="m-sub-menu-item m-menu-sub-tit">
+                        <p><a href="../../Cooperation/Cooperation_Application.html"><span>文化基石</span></a></p>
+                      </div>
+                                                                           <div class="m-sub-menu-item">
+                              <p><a href="../../Cooperation/Cooperation_Application.html"><i></i><span>前言</span></a></p>
+                            </div>
+                                                      <div class="m-sub-menu-item">
+                              <p><a href="../../Cooperation/Corporate_Culture_Cornerstone/Inscriptions_Leaders/index.html"><i></i><span>领导人题词</span></a></p>
+                            </div>
+                                                      <div class="m-sub-menu-item">
+                              <p><a href="../../Cooperation/Corporate_Culture_Cornerstone/Biography/index.html"><i></i><span>荣毅仁同志生平</span></a></p>
+                            </div>
+                                                      <div class="m-sub-menu-item">
+                              <p><a href="../../Cooperation/Corporate_Culture_Cornerstone/CITIC_logo/index.html"><i></i><span>路加徽标</span></a></p>
+                            </div>
+                                                      <div class="m-sub-menu-item">
+                              <p><a href="../../Cooperation/Corporate_Culture_Cornerstone/CITIC_Corporate_Culture/index.html"><i></i><span>文化体系</span></a></p>
+                            </div>
+                                                                      </div>
+                                                            </div>
+                        
+            <div class="nav-mobile-menugroup">
+              <div class="nav-mobile-item">
+                <p><a href="../../Duty/index.html">责任路加</a></p>
+                <div class="m-menu-arrow"><img src="../../../statics/images/zx/m-menu-arrow-l.png"></div>
+              </div>
+                            <div class="nav-mobile-subMenus">
+                                                    <div class="m-sub-menu-item"><p><a href="../../Duty/Mission.html"><i></i><span>服务客户</span></a></p></div>
+                                    <div class="m-sub-menu-item"><p><a href="../../Duty/Wish.html"><i></i><span>关爱员工</span></a></p></div>
+                                    <div class="m-sub-menu-item"><p><a href="../../Duty/Values.html"><i></i><span>保护环境</span></a></p></div>
+                                    <div class="m-sub-menu-item"><p><a href="../../Duty/Honor.html"><i></i><span>回馈社会</span></a></p></div>
+                                                </div>
+                          </div>
+                        
+            <div class="nav-mobile-menugroup">
+              <div class="nav-mobile-item">
+                <p><a href="../../medias/index.html">媒体中心</a></p>
+                <div class="m-menu-arrow"><img src="../../../statics/images/zx/m-menu-arrow-l.png"></div>
+              </div>
+                            <div class="nav-mobile-subMenus">
+                                                    <div class="m-sub-menu-item"><p><a href="../../medias/media/index.html"><i></i><span>路加风采</span></a></p></div>
+                                    <div class="m-sub-menu-item"><p><a href="../../medias/media_news/index.html"><i></i><span>新闻通稿</span></a></p></div>
+                                                </div>
+                          </div>
+                                    <div class="nav-mobile-item">
+              <p><a href="../../Join/index.html">加入路加</a></p>
+            </div>
+                                
+
+      <div class="nav-mobile-item">
+      	         	         			         	<a href="../../../uploadfile/2018/0321/20180321035649167.pdf" target="_blank"><p>联系我们</p></a>
+	        		          </div>
+      <div class="nav-mobile-item">
+            <a href="http://www.lukemedgroup.com/" target="_blank"><p>北京路加医疗设备维修有限公司</p></a>
+      </div>
+
+      <div class="nav-mobile-menugroup">
+        <div class="nav-mobile-item">
+          <p>当前语言版本:中文</p>
+          <div class="m-menu-arrow"><img src="../../../statics/images/zx/m-menu-arrow-l.png"></div>
+        </div>
+        <div class="nav-mobile-subMenus">
+          <div class="m-sub-menu-item">
+            <p><i></i><span class="big5_to_gb">中文简体</span></p>
+          </div>
+          <div class="m-sub-menu-item">
+            <p><i></i><span class="gb_to_big5">中文繁体</span></p>
+          </div>
+          <div class="m-sub-menu-item">
+            <p><a href="../../../en/index.html"><i></i><span>English</span></a></p>
+          </div>
+        </div>
+      </div>
+      <!-- <div class="nav-mobile-item">
+        <p>当前语言版本:中文</p>
+      </div> -->
+    </div>
+  </div>
+  <div id="full_bg"></div>
+
+
+
+
+
+
+    <div class="banner_party">
+      <img src="http://citic.3sugars.cn/statics/images/zx/zxbrand_identification_03.png" class="larger">
+      <div class="banner_max_width">
+        <ul>
+         <li class="q_nav_tit">您当前位置：<p>
+            <a href="../../../index.html"  title="首页">首页</a><span>/</span>
+            <a href="index.html"  title="品牌认证">品牌认证</a></p></li>
+              <li class="title">品牌认证</li> 
+        </ul>
+      </div>
+    </div>
+    <div class="zxbrand_identification">
+            <div class="max_width padding_china_width">
+        <ul class="left_brand">
+                                   <li class="title">互联网品牌认证中心简介</li>
+              <li><p>互联网品牌认证中心是路加医疗品牌管理委员会办公室下设机构，负责对使用路加商标品牌并具有路加有管理权的全资、控股或上市企业的门户网站、官方微博、官方微信公众号及互联网APP等渠道进行在线品牌认证和动态监管，办理子公司在线提交的品牌认证申请、发放品牌认证电子证书。<br />
+&nbsp;<br />
+互联网品牌认证中心向社会公众公布所有经认证的路加医疗各类互联网渠道，提供相应品牌电子证书的查询，接受社会公众监督，积极保护路加医疗品牌形象和商标权益。</p>
+</li>
+              <li><a href="https://www.c.citic/views/apps/product-auth.jsp" target="_blank">立即申请认证</a></li>
+                                    
+        </ul>
+        <div class="right_brand">
+          <div class="title">认证流程</div>
+          <ul>
+                                      <li>1、在线填写资料<img src="http://citic.3sugars.cn/statics/images/zx/zx_certificate2_07.png"></li>
+                            <li>2、审核通过<img src="http://citic.3sugars.cn/statics/images/zx/zx_certificate2_10.png"></li>
+                            <li>3、发布<img src="http://citic.3sugars.cn/statics/images/zx/zx_certificate2_12.png"></li>
+                                    </ul>
+        </div>
+        <div class="tab_box">
+          <ul class="label">
+           
+                                                                                                                    <li class="active">官网地址</li>
+                                                    <li >官方微博</li>
+                                                    <li >官方微信</li>
+                                    </ul>
+        </div>
+        <div class="company_box">
+                                                                                              <div class="box">
+                                                              <ul>
+                                          <li>中国国际经济咨询有限公司</li>
+                            <li>路加国际电讯有限公司</li>
+                            <li>路加戴卡股份有限公司</li>
+                            <li>路加建投期货有限公司</li>
+                            <li>路加海洋直升机股份有限公司</li>
+                            <li>路加金属有限公司</li>
+                            <li>路加信托有限责任公司</li>
+                            <li>路加和业投资有限公司</li>
+                            <li>世纪爱晚投资有限公司</li>
+                            <li>路加国安通信有限公司</li>
+                            <li>路加国安葡萄酒业股份有限公司</li>
+                                      </ul>
+             <div class="page-h">
+                                <ul class="clearfix"></ul>            </div>
+                                     <div class="zx_brand_back">
+              <div class="zx_brand_box"><img src="../../../uploadfile/2018/0419/20180419052555875.png">
+                <div class="close">&times</div>
+              </div>
+            </div>
+                           <div class="zx_brand_back">
+              <div class="zx_brand_box"><img src="../../../uploadfile/2018/0420/20180420103022416.png">
+                <div class="close">&times</div>
+              </div>
+            </div>
+                           <div class="zx_brand_back">
+              <div class="zx_brand_box"><img src="../../../uploadfile/2018/0420/20180420103239716.png">
+                <div class="close">&times</div>
+              </div>
+            </div>
+                           <div class="zx_brand_back">
+              <div class="zx_brand_box"><img src="../../../uploadfile/2018/0420/20180420103055354.png">
+                <div class="close">&times</div>
+              </div>
+            </div>
+                           <div class="zx_brand_back">
+              <div class="zx_brand_box"><img src="../../../uploadfile/2018/0420/20180420103100734.png">
+                <div class="close">&times</div>
+              </div>
+            </div>
+                           <div class="zx_brand_back">
+              <div class="zx_brand_box"><img src="../../../uploadfile/2018/0420/20180420103127527.png">
+                <div class="close">&times</div>
+              </div>
+            </div>
+                           <div class="zx_brand_back">
+              <div class="zx_brand_box"><img src="../../../uploadfile/2018/0420/20180420103141113.png">
+                <div class="close">&times</div>
+              </div>
+            </div>
+                           <div class="zx_brand_back">
+              <div class="zx_brand_box"><img src="../../../uploadfile/2018/0420/20180420103057315.png">
+                <div class="close">&times</div>
+              </div>
+            </div>
+                           <div class="zx_brand_back">
+              <div class="zx_brand_box"><img src="../../../uploadfile/2018/0420/20180420103137215.png">
+                <div class="close">&times</div>
+              </div>
+            </div>
+                           <div class="zx_brand_back">
+              <div class="zx_brand_box"><img src="../../../uploadfile/2018/0420/20180420103053571.png">
+                <div class="close">&times</div>
+              </div>
+            </div>
+                           <div class="zx_brand_back">
+              <div class="zx_brand_box"><img src="../../../uploadfile/2018/0420/20180420103127483.png">
+                <div class="close">&times</div>
+              </div>
+            </div>
+                                    </div>
+                                         <div class="box">
+                                                              <ul>
+                                          <li>路加控股有限责任公司</li>
+                            <li>路加控股有限责任公司</li>
+                            <li>路加控股有限责任公司</li>
+                            <li>路加控股有限责任公司</li>
+                                      </ul>
+             <div class="page-h">
+                                <ul class="clearfix"></ul>            </div>
+                                     <div class="zx_brand_back">
+              <div class="zx_brand_box"><img src="">
+                <div class="close">&times</div>
+              </div>
+            </div>
+                           <div class="zx_brand_back">
+              <div class="zx_brand_box"><img src="">
+                <div class="close">&times</div>
+              </div>
+            </div>
+                           <div class="zx_brand_back">
+              <div class="zx_brand_box"><img src="">
+                <div class="close">&times</div>
+              </div>
+            </div>
+                           <div class="zx_brand_back">
+              <div class="zx_brand_box"><img src="">
+                <div class="close">&times</div>
+              </div>
+            </div>
+                                    </div>
+                                         <div class="box">
+                                                              <ul>
+                                                    </ul>
+             <div class="page-h">
+                                <ul class="clearfix"></ul>            </div>
+                                              </div>
+                            </div>
+      </div>
+    </div>
+<script src="../../../statics/js/zx/yhdabout.js"></script>
+ <div class="footer">
+        <div class="footer-content clearfix">
+            <div class="ft-vertical-block">
+                <div class="ft-nav-list">
+                    <div class="ft-nav-tit">关于路加</div>
+                    <div class="ft-nav-item">
+                        <ul class="">
+                                                                            <li><a href="../../About/Chairman_Statement.html">董事长致辞</a></li>
+                                                    <li><a href="../../About/Brief_Introduction.html">走进路加</a></li>
+                                                    <li><a href="../../About/Directors_Senior.html">集团领导</a></li>
+                                                    <li><a href="../../About/Governance_Risk.html">路加理念</a></li>
+                                                    <li><a href="../../About/brand_thinking.html">合作机构</a></li>
+                                                                        </ul>
+                    </div>
+                </div>
+               
+                <div class="ft-nav-list">
+                    <div class="ft-nav-tit">路加新闻</div>
+                    <div class="ft-nav-item">
+                        <ul class="">
+                            <li><a href="../../News/index.html">新闻动态</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="ft-vertical-block">
+                                                              <div class="ft-nav-list">
+                    <div class="ft-nav-tit">业务领域</div>                    <div class="ft-nav-item">
+                        <div class="ft-nav-tit-sml">金融业务</div>
+                        <ul class="">
+                                                                                      <li><a href="../../Business/Business-kfyy.html">银行业务</a></li>
+                                                            <li><a href="../../Business/Business-hygl.html">证券业务</a></li>
+                                                            <li><a href="../../Business/Business-yxzx.html">信托业务</a></li>
+                                                            <li><a href="../../Business/Business-jzepc.html">保险业务</a></li>
+                                                            <li><a href="../../Business/Business-yyit.html">其他金融业务</a></li>
+                                                                              </ul>
+                    </div>
+                </div>
+                                                 <div class="ft-nav-list">
+                                        <div class="ft-nav-item">
+                        <div class="ft-nav-tit-sml">实业投资</div>
+                        <ul class="">
+                                                                                      <li><a href="../../Business/Non_Financial_Businesses/Resources_Energy/index.html">资源与能源业务</a></li>
+                                                            <li><a href="../../Business/Non_Financial_Businesses/Manufacturing/index.html">制造业</a></li>
+                                                            <li><a href="../../Business/Non_Financial_Businesses/Engineering_Contracting/index.html">工程承包业务</a></li>
+                                                            <li><a href="../../Business/Non_Financial_Businesses/Real_Estate_Infrastructure/index.html">房地产</a></li>
+                                                            <li><a href="../../Business/Non_Financial_Businesses/Other_Businesses/index.html">其他业务</a></li>
+                                                                              </ul>
+                    </div>
+                </div>
+                                                           </div>
+            <div class="ft-vertical-block">
+                                                              <div class="ft-nav-list">
+                                            <div class="ft-nav-tit">党的建设</div>
+                                        <div class="ft-nav-item">
+                        <div class="ft-nav-tit-sml"><a href="../../Cooperation/Cooperation.html">党建动态</a></div>
+                                            </div>
+                </div>
+                                                 <div class="ft-nav-list">
+                                        <div class="ft-nav-item">
+                        <div class="ft-nav-tit-sml">文化基石</div> 
+                                                <ul class="">
+                                                                                      <li><a href="../../Cooperation/Cooperation_Application.html">前言</a></li>
+                                                            <li><a href="../../Cooperation/Corporate_Culture_Cornerstone/Inscriptions_Leaders/index.html">领导人题词</a></li>
+                                                            <li><a href="../../Cooperation/Corporate_Culture_Cornerstone/Biography/index.html">荣毅仁同志生平</a></li>
+                                                            <li><a href="../../Cooperation/Corporate_Culture_Cornerstone/CITIC_logo/index.html">路加徽标</a></li>
+                                                            <li><a href="../../Cooperation/Corporate_Culture_Cornerstone/CITIC_Corporate_Culture/index.html">文化体系</a></li>
+                                                                              </ul>
+                                            </div>
+                </div>
+                                                           </div>
+
+            <div class="ft-vertical-block">
+                <div class="ft-nav-list">
+                    <div class="ft-nav-tit">社会责任</div>
+                    <div class="ft-nav-item">
+                        <ul class="">
+                                                                                <li><a href="../../Duty/Mission.html">服务客户</a></li>
+                                                        <li><a href="../../Duty/Wish.html">关爱员工</a></li>
+                                                        <li><a href="../../Duty/Values.html">保护环境</a></li>
+                                                        <li><a href="../../Duty/Honor.html">回馈社会</a></li>
+                                                                          </ul>
+                    </div>
+                </div>
+                 <div class="ft-nav-list">
+                    <div class="ft-nav-tit">媒体中心</div>
+                    <div class="ft-nav-item">
+                        <ul class="">
+                                                                            <li><a href="../../medias/media/index.html" title="">路加风采</a></li>
+                                                    <li><a href="../../medias/media_news/index.html" title="">新闻通稿</a></li>
+                                                                        </ul>
+                    </div>
+                </div>
+                
+                <div class="ft-nav-list">
+                    <div class="ft-nav-tit">加入路加</div>
+                    <div class="ft-nav-item">
+                        <ul class="">
+                            <li><a href="../../Join/index.html">加入路加</a></li>
+                          
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="ft-vertical-block">
+                <div class="ft-nav-list">
+                    <div class="ft-nav-tit">关注我们:</div>
+                    <div class="icon_li">
+                       <div class="icon_weibo">
+                            <a href="http://weibo.com/" target='_blank'>
+                                <img src="../../../statics/images/zx/icon-weibo.png">
+                            </a>
+                        </div>  
+                        <div class="icon_weixin">
+                            <img src="../../../statics/images/zx/icon-weixin.png">
+                            <div class="wx-qrcode">
+                                <img src="../../../statics/images/zx/weixin-qrcode.jpg">
+                            </div>
+                        </div> 
+                    </div>  
+                </div>
+                <div class="ft-nav-list ">
+                                                            <div class="contact-us">
+                        <div class="ft-nav-tit">联系我们:</div>
+                            <p>电话:86-10-64660088</p>
+                            <p>传真:86-10-64661188</p>
+                            <p>邮箱:g-contact@citic.com</p>
+                            <p>地址:中国 北京市 朝阳区<br>新源南路6号京城大厦</p>
+                        </div>
+                    <p class="ui-more-btn">
+                        
+                        <a href="../../../uploadfile/2018/0321/20180321035649167.pdf" target="_blank"><i></i><span>点击了解更多</span></a>
+                        
+                    </p> 
+                                                            </div>
+            </div>
+        </div>
+        <div class="foot-btm">
+            <ul class="">
+              <!--
+                        -->
+                                                <!--
+                                -->
+
+                    
+              <li >
+                <a href="http://www.lukemedgroup.com/">北京路加医疗设备维修有限公司</a> <i>•</i></li>
+                              <!--
+                              -->
+
+                    
+              <li >
+                <a href="../../../uploadfile/2018/0321/20180321035649167.pdf" target="_blank">联系我们</a> <i>•</i></li>
+                              <!--
+                              -->
+
+                    
+              <li >
+                <a href="../Related_Websites/index.html">路加医疗相关网站</a> <i>•</i></li>
+                              <!--
+                              -->
+
+                    
+              <li class="brand">
+                <a href="index.html">品牌认证</a> </li>
+                              <!--
+                            -->
+            <!--
+                        -->
+            </ul>
+            <p>©2015-2018 中国路加医疗有限公司 版权所有 京ICP证 030779-2号-1京公网安备 11010502030327号</p>
+            <p>请使用IE10及以上内核浏览器，建议使用Chrome、Firefox、360最新版等。</p>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript" src="../../../statics/js/gb2big5.js"></script>
+
+  
