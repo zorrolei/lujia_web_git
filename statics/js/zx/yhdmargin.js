@@ -7,7 +7,7 @@ $(function(){
     function margin(){
         var _wwidth=$('html').width();
         var _mwidth=(_wwidth-1140)/2+60;
-        console.log(_mwidth)
+
         if(_wwidth<675){
             $('.zxresponsibility_right').find(' .back').css('left',0);
             $('.zxresponsibility_left').find(' .back').css('right',0);

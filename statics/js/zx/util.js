@@ -626,7 +626,7 @@ function testBlocksitImg() {
         defereds.push(dfd);
     });
     $.when.apply(null, defereds).done(function () {
-        console.log('load compeleted'+'+'+new Date());
+
         if ($('#container-p').length>0){
             $('#container-p').BlocksIt({
                 numOfCol: col,
