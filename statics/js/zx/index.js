@@ -223,7 +223,7 @@ $(document).ready(function() {
       var aHref = $(".foot-btm li:last-child a");
       aHref.attr("href","javascript:;");
       aHref.css("cursor","no-drop")
-      console.log(aHref.text())
+
 
   }
 

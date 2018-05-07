@@ -231,7 +231,7 @@ function reimg2(){
 	    */
 	    //临时添加
 	    var la = $('.footer .foot-btm li.brand');
-	    console.log(la.html());
+
 		$('.footer .foot-btm li.brand').attr({'href':'javascript:void(0);'});
 	});
 

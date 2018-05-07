@@ -120,7 +120,7 @@ if (gb2big5_Obj)
 
 var JF_cn="ft"+self.location.hostname.toString().replace(/\./g,"");
 var BodyIsFt=getCookie(JF_cn);
-console.log(BodyIsFt);
+
 //if(BodyIsFt!="1") BodyIsFt=Default_isFT;
 //if(BodyIsFt=="1"){//需把页面转成繁体
 //	setTimeout("StranBody()",StranIt_Delay)
