@@ -2,8 +2,36 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ed09b9ab-8d6e-4b0a-b181-c2e12a8c467a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/statics/images/zx/logo.png" afterPath="$PROJECT_DIR$/statics/images/zx/logo.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/statics/css/zx/header.css" afterPath="$PROJECT_DIR$/statics/css/zx/header.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/About/Brief_Introduction.html" afterPath="$PROJECT_DIR$/html/About/Brief_Introduction.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/About/Chairman_Statement.html" afterPath="$PROJECT_DIR$/html/About/Chairman_Statement.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/About/Directors_Senior.html" afterPath="$PROJECT_DIR$/html/About/Directors_Senior.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/About/Governance_Risk.html" afterPath="$PROJECT_DIR$/html/About/Governance_Risk.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/About/brand_thinking.html" afterPath="$PROJECT_DIR$/html/About/brand_thinking.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/About/index.html" afterPath="$PROJECT_DIR$/html/About/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/Business/Business-hygl.html" afterPath="$PROJECT_DIR$/html/Business/Business-hygl.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/Business/Business-jzepc.html" afterPath="$PROJECT_DIR$/html/Business/Business-jzepc.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/Business/Business-kfyy.html" afterPath="$PROJECT_DIR$/html/Business/Business-kfyy.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/Business/Business-sbjjfa.html" afterPath="$PROJECT_DIR$/html/Business/Business-sbjjfa.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/Business/Business-yxzx.html" afterPath="$PROJECT_DIR$/html/Business/Business-yxzx.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/Business/Business-yyit.html" afterPath="$PROJECT_DIR$/html/Business/Business-yyit.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/Business/index.html" afterPath="$PROJECT_DIR$/html/Business/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/Cooperation/Cooperation.html" afterPath="$PROJECT_DIR$/html/Cooperation/Cooperation.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/Cooperation/Cooperation_Application.html" afterPath="$PROJECT_DIR$/html/Cooperation/Cooperation_Application.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/Cooperation/Cooperation_Detail.html" afterPath="$PROJECT_DIR$/html/Cooperation/Cooperation_Detail.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/Cooperation/index.html" afterPath="$PROJECT_DIR$/html/Cooperation/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/Duty/Honor.html" afterPath="$PROJECT_DIR$/html/Duty/Honor.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/Duty/Mission.html" afterPath="$PROJECT_DIR$/html/Duty/Mission.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/Duty/Values.html" afterPath="$PROJECT_DIR$/html/Duty/Values.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/Duty/Wish.html" afterPath="$PROJECT_DIR$/html/Duty/Wish.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/Duty/index.html" afterPath="$PROJECT_DIR$/html/Duty/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/Join/Contact.html" afterPath="$PROJECT_DIR$/html/Join/Contact.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/Join/Recruitment.html" afterPath="$PROJECT_DIR$/html/Join/Recruitment.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/Join/index.html" afterPath="$PROJECT_DIR$/html/Join/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/News/index.html" afterPath="$PROJECT_DIR$/html/News/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/News/news-detail.html" afterPath="$PROJECT_DIR$/html/News/news-detail.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/statics/css/zx/content.css" afterPath="$PROJECT_DIR$/statics/css/zx/content.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/statics/css/zx/main-h.css" afterPath="$PROJECT_DIR$/statics/css/zx/main-h.css" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -20,19 +48,215 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="479">
-              <caret line="67" column="67" lean-forward="true" selection-start-line="67" selection-start-column="67" selection-end-line="67" selection-end-column="67" />
+            <state relative-caret-position="283">
+              <caret line="372" column="33" lean-forward="false" selection-start-line="372" selection-start-column="33" selection-end-line="372" selection-end-column="33" />
+              <folding>
+                <element signature="n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="news-detail.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html/News/news-detail.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="485">
+              <caret line="766" column="42" lean-forward="true" selection-start-line="766" selection-start-column="42" selection-end-line="766" selection-end-column="42" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="header.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/statics/css/zx/header.css">
+      <file leaf-file-name="Brief_Introduction.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html/About/Brief_Introduction.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="415">
-              <caret line="51" column="17" lean-forward="true" selection-start-line="51" selection-start-column="17" selection-end-line="51" selection-end-column="17" />
+            <state relative-caret-position="290">
+              <caret line="439" column="36" lean-forward="false" selection-start-line="439" selection-start-column="36" selection-end-line="439" selection-end-column="36" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Directors_Senior.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html/About/Directors_Senior.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="767">
+              <caret line="730" column="29" lean-forward="false" selection-start-line="730" selection-start-column="29" selection-end-line="730" selection-end-column="29" />
+              <folding>
+                <element signature="n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#2;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html/Business/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="467">
+              <caret line="679" column="11" lean-forward="true" selection-start-line="679" selection-start-column="11" selection-end-line="679" selection-end-column="141" />
+              <folding>
+                <element signature="n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#2;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#3;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#4;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Business-kfyy.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html/Business/Business-kfyy.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="471">
+              <caret line="716" column="26" lean-forward="true" selection-start-line="716" selection-start-column="26" selection-end-line="716" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main-h.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/statics/css/zx/main-h.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="470">
+              <caret line="632" column="20" lean-forward="false" selection-start-line="632" selection-start-column="20" selection-end-line="632" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Business-hygl.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html/Business/Business-hygl.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1006">
+              <caret line="724" column="96" lean-forward="false" selection-start-line="724" selection-start-column="96" selection-end-line="724" selection-end-column="96" />
+              <folding>
+                <element signature="n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#2;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Business-yxzx.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html/Business/Business-yxzx.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="753">
+              <caret line="712" column="40" lean-forward="false" selection-start-line="712" selection-start-column="40" selection-end-line="712" selection-end-column="40" />
+              <folding>
+                <element signature="n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#2;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Business-jzepc.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html/Business/Business-jzepc.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="997">
+              <caret line="721" column="96" lean-forward="false" selection-start-line="721" selection-start-column="96" selection-end-line="721" selection-end-column="96" />
+              <folding>
+                <element signature="n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#2;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Business-yyit.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html/Business/Business-yyit.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="358">
+              <caret line="729" column="25" lean-forward="true" selection-start-line="729" selection-start-column="25" selection-end-line="729" selection-end-column="25" />
+              <folding>
+                <element signature="n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#2;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Business-sbjjfa.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html/Business/Business-sbjjfa.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="978">
+              <caret line="729" column="28" lean-forward="false" selection-start-line="729" selection-start-column="28" selection-end-line="729" selection-end-column="28" />
+              <folding>
+                <element signature="n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#2;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Cooperation_Detail.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html/Cooperation/Cooperation_Detail.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="803">
+              <caret line="704" column="68" lean-forward="true" selection-start-line="704" selection-start-column="68" selection-end-line="704" selection-end-column="68" />
+              <folding>
+                <element signature="n#div#2;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Contact.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/html/Join/Contact.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="863">
+              <caret line="726" column="76" lean-forward="false" selection-start-line="726" selection-start-column="76" selection-end-line="726" selection-end-column="76" />
+              <folding>
+                <element signature="n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#2;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#style#0;n#div#3;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#4;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h3#0;n#div#1;n#div#1;n#div#4;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html/News/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="content.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/statics/css/zx/content.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="596">
+              <caret line="101" column="20" lean-forward="false" selection-start-line="101" selection-start-column="20" selection-end-line="101" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Cooperation_Application.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html/Cooperation/Cooperation_Application.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="389">
+              <caret line="717" column="109" lean-forward="false" selection-start-line="717" selection-start-column="109" selection-end-line="717" selection-end-column="109" />
+              <folding>
+                <element signature="n#p#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -48,9 +272,18 @@
       <find>console.log('load compeleted'+'+'+new Date());</find>
       <find>m-menu-arrow-l.png</find>
       <find>nav-cont-swp1</find>
+      <find>路加爱心医疗: 康复项目研讨会</find>
+      <find>合作领域</find>
+      <find>4S解决方案</find>
+      <find>&lt;a href=&quot;html/Duty/Wish.html&quot;&gt;&lt;i&gt;&lt;/i&gt;&lt;span&gt;人力资源&lt;/span&gt;&lt;/a&gt;</find>
+      <find>html/join/Recruitment.html</find>
+      <find>join/Recruitment.html</find>
+      <find>人力资源</find>
     </findStrings>
     <replaceStrings>
       <replace />
+      <replace>设备解决方案</replace>
+      <replace>Join/Recruitment.html</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$</dir>
@@ -68,6 +301,22 @@
         <option value="$PROJECT_DIR$/statics/js/zx/yhdmargin.js" />
         <option value="$PROJECT_DIR$/statics/js/zx/util.js" />
         <option value="$PROJECT_DIR$/statics/css/zx/header.css" />
+        <option value="$PROJECT_DIR$/html/Cooperation/Cooperation_Application.html" />
+        <option value="$PROJECT_DIR$/html/News/news-detail.html" />
+        <option value="$PROJECT_DIR$/html/About/Directors_Senior.html" />
+        <option value="$PROJECT_DIR$/statics/css/zx/content.css" />
+        <option value="$PROJECT_DIR$/html/Business/index.html" />
+        <option value="$PROJECT_DIR$/html/Business/Business-kfyy.html" />
+        <option value="$PROJECT_DIR$/statics/css/zx/main-h.css" />
+        <option value="$PROJECT_DIR$/html/Business/Business-hygl.html" />
+        <option value="$PROJECT_DIR$/html/Business/Business-yxzx.html" />
+        <option value="$PROJECT_DIR$/html/Business/Business-jzepc.html" />
+        <option value="$PROJECT_DIR$/html/Business/Business-yyit.html" />
+        <option value="$PROJECT_DIR$/html/Business/Business-sbjjfa.html" />
+        <option value="$PROJECT_DIR$/html/Cooperation/Cooperation_Detail.html" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/html/About/Brief_Introduction.html" />
+        <option value="$PROJECT_DIR$/html/Join/Contact.html" />
       </list>
     </option>
   </component>
@@ -134,26 +383,13 @@
             <path>
               <item name="lujia_web_git" type="b2602c69:ProjectViewProjectNode" />
               <item name="lujia_web_git" type="462c0819:PsiDirectoryNode" />
-              <item name="statics" type="462c0819:PsiDirectoryNode" />
+              <item name="html" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="lujia_web_git" type="b2602c69:ProjectViewProjectNode" />
               <item name="lujia_web_git" type="462c0819:PsiDirectoryNode" />
-              <item name="statics" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lujia_web_git" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lujia_web_git" type="462c0819:PsiDirectoryNode" />
-              <item name="statics" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-              <item name="zx" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lujia_web_git" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lujia_web_git" type="462c0819:PsiDirectoryNode" />
-              <item name="statics" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
+              <item name="html" type="462c0819:PsiDirectoryNode" />
+              <item name="Join" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -198,12 +434,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1525656378842</updated>
-      <workItem from="1525656380122" duration="1880000" />
+      <workItem from="1525656380122" duration="6993000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1880000" />
+    <option name="totallyTimeSpent" value="6993000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="2560" height="1440" extended-state="0" />
@@ -214,7 +450,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3269934" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32845646" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32772493" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -241,11 +477,6 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/statics/images/zx/奔跑吧墙贴.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/statics/images/zx/m-menu-arrow-l.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
@@ -311,19 +542,208 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/statics/css/zx/header.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="479">
-          <caret line="67" column="67" lean-forward="true" selection-start-line="67" selection-start-column="67" selection-end-line="67" selection-end-column="67" />
+        <state relative-caret-position="419">
+          <caret line="51" column="17" lean-forward="true" selection-start-line="51" selection-start-column="17" selection-end-line="51" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/statics/css/zx/header.css">
+    <entry file="file://$PROJECT_DIR$/html/Cooperation/Cooperation_Application.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="415">
-          <caret line="51" column="17" lean-forward="true" selection-start-line="51" selection-start-column="17" selection-end-line="51" selection-end-column="17" />
+        <state relative-caret-position="389">
+          <caret line="717" column="109" lean-forward="false" selection-start-line="717" selection-start-column="109" selection-end-line="717" selection-end-column="109" />
+          <folding>
+            <element signature="n#p#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/News/news-detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="485">
+          <caret line="766" column="42" lean-forward="true" selection-start-line="766" selection-start-column="42" selection-end-line="766" selection-end-column="42" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/About/Directors_Senior.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="767">
+          <caret line="730" column="29" lean-forward="false" selection-start-line="730" selection-start-column="29" selection-end-line="730" selection-end-column="29" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/Business/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="467">
+          <caret line="679" column="11" lean-forward="true" selection-start-line="679" selection-start-column="11" selection-end-line="679" selection-end-column="141" />
+          <folding>
+            <element signature="n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#3;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#4;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/statics/images/zx/arrow-right.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/statics/images/zx/icon-arrow-right-w.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/statics/images/zx/m-menu-arrow-l.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/statics/css/zx/content.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="596">
+          <caret line="101" column="20" lean-forward="false" selection-start-line="101" selection-start-column="20" selection-end-line="101" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/statics/css/zx/main-h.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="470">
+          <caret line="632" column="20" lean-forward="false" selection-start-line="632" selection-start-column="20" selection-end-line="632" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/Business/Business-kfyy.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="471">
+          <caret line="716" column="26" lean-forward="true" selection-start-line="716" selection-start-column="26" selection-end-line="716" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/Business/Business-hygl.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1006">
+          <caret line="724" column="96" lean-forward="false" selection-start-line="724" selection-start-column="96" selection-end-line="724" selection-end-column="96" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/Business/Business-yxzx.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="753">
+          <caret line="712" column="40" lean-forward="false" selection-start-line="712" selection-start-column="40" selection-end-line="712" selection-end-column="40" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/Business/Business-jzepc.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="997">
+          <caret line="721" column="96" lean-forward="false" selection-start-line="721" selection-start-column="96" selection-end-line="721" selection-end-column="96" />
+          <folding>
+            <element signature="n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/News/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/Business/Business-yyit.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="358">
+          <caret line="729" column="25" lean-forward="true" selection-start-line="729" selection-start-column="25" selection-end-line="729" selection-end-column="25" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/Business/Business-sbjjfa.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="978">
+          <caret line="729" column="28" lean-forward="false" selection-start-line="729" selection-start-column="28" selection-end-line="729" selection-end-column="28" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/Cooperation/Cooperation_Detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="803">
+          <caret line="704" column="68" lean-forward="true" selection-start-line="704" selection-start-column="68" selection-end-line="704" selection-end-column="68" />
+          <folding>
+            <element signature="n#div#2;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="372" column="33" lean-forward="false" selection-start-line="372" selection-start-column="33" selection-end-line="372" selection-end-column="33" />
+          <folding>
+            <element signature="n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/About/Brief_Introduction.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="439" column="36" lean-forward="false" selection-start-line="439" selection-start-column="36" selection-end-line="439" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/Join/Contact.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="863">
+          <caret line="726" column="76" lean-forward="false" selection-start-line="726" selection-start-column="76" selection-end-line="726" selection-end-column="76" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#3;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#4;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h3#0;n#div#1;n#div#1;n#div#4;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

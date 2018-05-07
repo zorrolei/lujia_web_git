@@ -99,7 +99,7 @@
 .dy_bankcont .bank_tabtit{ padding-top: 6px; border-bottom:1px solid #ccc; }
 .dy_bankcont .bank_tabtit span{font-size:14px; color:#333; margin-right:2%; display:inline-block; line-height: 44px;padding: 0 6px; cursor:pointer;}
 .dy_bankcont .bank_tabtit span.cur{border-bottom:1px solid #d70000;}
-.bank_tab_dy{width:60%; padding-top:15px; display:none;}
+.bank_tab_dy{width:80%; padding-top:15px; display:none;}
 .bank_tab_dycur{display:block;}
 .bank_tab_dy h5{font-size:36px; color:#333;}
 .bank_tab_dy p{font-size:14px; color:#5f636a; line-height:26px; margin:10px 0 15px;}

@@ -631,7 +631,6 @@
   font-size: 14px;
   color: #333;
   line-height: 24px;
-  text-indent: 2em;
 }
 .multivar .multivar-r p span{
   line-height: 24px !important;
@@ -756,11 +755,10 @@
 .multivar .multivar-r .yh-business p{
   font-size: 14px;
   color: #333;
-  line-height: 24px;
-  text-indent: 2em;
+  line-height: 34px;
 }
 .multivar .multivar-r .yh-business .zxyh-js{
-  font-size: 16px;
+  font-size: 18px;
   color: #5F636A;
   line-height: 28px;
   margin-top: 20px;

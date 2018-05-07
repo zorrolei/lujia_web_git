@@ -8,6 +8,7 @@
     <meta name="description" content="Description...">
     <meta name="keywords" content="keyword1,keyword2,keyword3..">
     <title>医院IT - 路加医疗</title>
+    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link href="../../statics/css/zx/resect.css" rel="stylesheet" type="text/css">
     <link href="../../statics/css/zx/reset.css" type="text/css" rel="stylesheet"/>
     <link href="../../statics/css/zx/swiper.min.css" type="text/css" rel="stylesheet"/>
@@ -434,7 +435,7 @@
                     </a></div>
                 <div class="nav-cont-item">
                     <p>
-                        <a href="../join/Recruitment.html"><i></i><span>人力资源</span>
+                        <a href="../Join/Recruitment.html"><i></i><span>人力资源</span>
                     </p>
                     </a></div>
                 <div class="nav-cont-item-bg"></div>
@@ -578,7 +579,7 @@
             <div class="m-sub-menu-item">
                 <p>
                     <a href="../Business/Business-sbjjfa.html">
-                        <i></i><span>4S解决方案</span></a>
+                        <i></i><span>设备解决方案</span></a>
                 </p>
             </div>
         </div>
@@ -708,13 +709,83 @@
                     <!--<h2 class="mul-r-tit">医院IT</h2>-->
                     <div class="yh-business">
 
-                        <img src="../../statics/images/new/20180425125941275.jpg" width="100%"/>
+
                         <p class="zxyh-js">
-                        <h3>业务介绍</h3>
-                        <p>路加参照美国现有康复医院模式，按病患种类划分并提供三大类康复服务：代谢病（预防性）康复；术后康复；老年病康复。康复医院与医院合作，从医院，生命日报会员，影像中心，国外合作等多种渠道导入病患，给予包括康复评估，中西医治疗，饮食规划，运动调节等在内的系统康复治疗</p>
-                        <h3>路加康复医院的核心竞争力</h3>
-                        <p>路加通过康复医疗技术、医院ＩＴ技术、医疗工程的标准化输出形成了康复医院的整体运营平台。并在业务、管理、效能上形成了先进康复医院管理系统，成为康复医疗品质保证。依托康复医院、康复会所、康复中心三级单位形成海内外康复会员管理体系。
+                        <h3><strong>项目背景</strong></h3>
+                        <p>制作厂商繁多，医院各个系统之间存在接口对接问题；<br>
+                            HIS系统中对于病历书写这块没有统一的标准，医生大多时间都用于在书写病历上，大大减少了对患者的诊治时间；<br>
+                            HIS系统中的收费模块没有与院内财务系统对接，导致医院财务管理工作量增大；<br>
+                            绩效管理方面量化指标不完善；<br>
+                            医院无法实时监控各个科室医生在工作中的态度、质量管控及人员调配情。
                         </p>
+                        <h3 class="margin-top"><strong>移动端设计理念 – 工作端：</strong></h3>
+                        <img src="../../statics/images/new/yyit_01.png" width="100%"/>
+                        <h3 class="margin-top"><strong>移动端设计理念 – 患者端：</strong></h3>
+                        <img src="../../statics/images/new/yyit_02.png" width="100%"/>
+                        <h3 class="margin-top"><strong>整体架构：</strong></h3>
+                        <img src="../../statics/images/new/yyit_03.png" width="100%"/>
+                        <h3 class="margin-top"><strong>路加医院IT系统与现有医院IT系统的区别</strong></h3>
+                        <table class="table table-bordered margin-top table-hover">
+                            <thead>
+                            <tr>
+                                <th>项目</th>
+                                <th>原有模式</th>
+                                <th>路加模式</th>
+                                <th>对比</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td>APP</td>
+                                <td>①提供挂号预约；<br>
+                                    ②网上支付；<br>
+                                    ③智能导诊；<br>
+                                    ④LIS数据查询；
+                                </td>
+                                <td>①PACS数据查询；<br>
+                                    ②实现与诊疗系统（门诊、病房、护理、康复）、餐饮、评估系统对接；
+                                </td>
+                                <td>①实现查询功能；<br>
+                                    ②患者自主选择医护人员实现互动，医患之间实现一体化；
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>平台</td>
+                                <td>①HIS平台兼容性差；<br>
+                                    ②分析处理差；
+                                </td>
+                                <td>①结构化管理，兼容性强；<br>
+                                    ②与PACS、LIS、APP、数据中心、财务系统、物流系统兼容；<br>
+                                    ③业务结构化；<br>
+                                    ④人事、行政管理系统能够纵向贯通各业务模块
+                                </td>
+                                <td>①结构清晰；<br>
+                                    ②易升级；<br>
+                                    ③流程结构化；<br>
+                                    ④兼容性强；
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>硬件</td>
+                                <td>①机房<br>
+                                    ②数据中心
+                                </td>
+                                <td>①移动网络<br>
+                                    ②移动终端
+                                </td>
+                                <td>从固定的PC端转向移动互联</td>
+                            </tr>
+                            <tr>
+                                <td>软件</td>
+                                <td>HIS、PACS、LIS、体检系统（其中辅助系统：在HIS系统中的临床路径、排队叫号系统、输液系统)</td>
+                                <td>PACS、LIS、检查系统、治疗系统、护理系统、康复系统、餐饮系统、人事管理系统、财务管理系统、行政管理系统、物流管理系统及设备管理，各系统之间实现互动</td>
+                                <td>①实现从HIS向业务结构化流程转变；<br>
+                                    ②管理系统实现财务、人力资源一体化；<br>
+                                    ③软件实现专业化分工
+                                </td>
+                            </tr>
+                            </tbody>
+                        </table>
                         </p>
                     </div>
                     <div class="jr-bus-con">
