@@ -676,6 +676,7 @@ margin-top: 5px;
 
 .section-nav-list-txt p{
     text-align: left;
+    font-size: 14px;
 }
 .section-nav-list-txt p.tit{
     font-size: 24px;
@@ -847,6 +848,7 @@ margin-top: 5px;
     display: inline-block;
     width: 420px;
     padding-left: 15px;
+    font-size: 18px;
 }
 
 .news-item .s-news-time .d{
