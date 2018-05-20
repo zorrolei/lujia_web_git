@@ -2880,7 +2880,7 @@ dl {
   line-height: 35px;
 }
 *, :before, :after {
-  box-sizing: content-box;
+  /*box-sizing: content-box;*/
 }
 /*品牌认证*/
 @media screen and (max-width: 1366px){
@@ -3343,4 +3343,11 @@ dl {
 }
 
 .margin-top{margin-top:20px;}
+.margin-bottom{margin-bottom:20px;}
 .text-center{text-align:center;}
+h1{margin:.67em 0;font-size:2em}
+.h2,h2{font-size:30px}
+.h3,h3{font-size:24px}
+.h4,h4{font-size:18px}
+.h5,h5{font-size:14px}
+.h6,h6{font-size:12px}

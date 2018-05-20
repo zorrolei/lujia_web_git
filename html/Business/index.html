@@ -25,7 +25,8 @@
     <!--<script src="/statics/js/zx/vendor/jquery-1.11.1.min.js"></script>-->
     <script src="../../statics/js/zx/jquery-1.10.2.min.js"></script>
     <!--[if lte IE 8]>
-    <script src="http://cdn.bootcss.com/jquery/1.9.0/jquery.min.js"></script><![endif]-->
+    <script src="http://cdn.bootcss.com/jquery/1.9.0/jquery.min.js"></script>
+    <![endif]-->
     <script src="../../statics/js/zx/vendor/jquery.easings.min.js"></script>
     <script src="../../statics/js/zx/blocksit.min.js" type="text/javascript"></script>
 
@@ -40,68 +41,47 @@
 
     <script type="text/javascript">
         var browser = {
-            versions : function(){
+            versions: function () {
                 var u = navigator.userAgent, app = navigator.appVersion;
                 return {
-                    trident : u.indexOf('Trident') > -1, //IE内核
-                    presto : u.indexOf('Presto') > -1, //opera内核
-                    webKit : u.indexOf('AppleWebKit') > -1, //苹果、谷歌内核
-                    gecko : u.indexOf('Gecko') > -1 && u.indexOf('KHTML') == -1,//火狐内核
-                    mobile : !!u.match(/AppleWebKit.*Mobile.*/), //是否为移动终端
-                    ios : !!u.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/), //ios终端
-                    android : u.indexOf('Android') > -1 || u.indexOf('Adr') > -1, //android终端
-                    iPhone : u.indexOf('iPhone') > -1, //是否为iPhone或者QQHD浏览器
-                    iPad : u.indexOf('iPad') > -1, //是否iPad
-                    webApp : u.indexOf('Safari') == -1, //是否web应该程序，没有头部与底部
-                    weixin : u.indexOf('MicroMessenger') > -1, //是否微信 （2015-01-22新增）
-                    qq : u.match(/\sQQ/i) == " qq" //是否QQ
+                    trident: u.indexOf('Trident') > -1, //IE内核
+                    presto: u.indexOf('Presto') > -1, //opera内核
+                    webKit: u.indexOf('AppleWebKit') > -1, //苹果、谷歌内核
+                    gecko: u.indexOf('Gecko') > -1 && u.indexOf('KHTML') == -1,//火狐内核
+                    mobile: !!u.match(/AppleWebKit.*Mobile.*/), //是否为移动终端
+                    ios: !!u.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/), //ios终端
+                    android: u.indexOf('Android') > -1 || u.indexOf('Adr') > -1, //android终端
+                    iPhone: u.indexOf('iPhone') > -1, //是否为iPhone或者QQHD浏览器
+                    iPad: u.indexOf('iPad') > -1, //是否iPad
+                    webApp: u.indexOf('Safari') == -1, //是否web应该程序，没有头部与底部
+                    weixin: u.indexOf('MicroMessenger') > -1, //是否微信 （2015-01-22新增）
+                    qq: u.match(/\sQQ/i) == " qq" //是否QQ
                 };
             }()
             //language:(navigator.browserLanguage || navigator.language).toLowerCase();
         }
-        if(browser.versions.mobile || browser.versions.android || browser.versions.ios){
+        if (browser.versions.mobile || browser.versions.android || browser.versions.ios) {
             window._mobile = true;
         } else {
             window._mobile = false;
         }
     </script>
-    <script>
-        var mySwiper = new Swiper('.nav-cont-swp1', {
-            pagination : '.nav-cont-page1',
-            loop : true,
-            grabCursor : true,
-            paginationClickable : true
-        });
 
-        $('.nav-cont-al').on('click', function(e){
-            e.preventDefault()
-            mySwiper.swipePrev()
-        });
-
-        $('.nav-cont-ar').on('click', function(e){
-            e.preventDefault()
-            mySwiper.swipeNext()
-        });
-    </script>
 </head>
 <body>
 <div class="bdsharebuttonbox right-win">
 
-    <div class="btn-share">
-        <a class="r-w-link01 fx-bt" href="javascript:;"><img src="../../statics/images/zx/rightIcon01.png" alt=""></a>
-        <div class="jt-list ">
-            <ul>
-                <li>
-                    <a href="index.html#" class="bds_tsina j-sina" data-cmd="tsina" title="分享到新浪微博">新浪微博</a>
-                </li>
-                <li>
-                    <a href="index.html#" class="bds_weixin j-wechat" data-cmd="weixin" title="分享到微信">微信</a>
-                </li>
-            </ul>
-        </div>
-    </div>
-    <a href="index.html#" class="bds_print r-w-link02 fx-bt" data-cmd="print" title="分享到打印">
-        <img src="../../statics/images/zx/rightIcon02.png" alt=""></a>
+    <!--<div class="btn-share">-->
+        <!--<a class="r-w-link01 fx-bt" href="javascript:;"><img src="../../statics/images/zx/rightIcon01.png" alt=""></a>-->
+        <!--<div class="jt-list ">-->
+            <!--<ul>-->
+                <!--<li><a href="index.html#" class="bds_tsina j-sina" data-cmd="tsina" title="分享到新浪微博">新浪微博</a></li>-->
+                <!--<li><a href="index.html#" class="bds_weixin j-wechat" data-cmd="weixin" title="分享到微信">微信</a></li>-->
+            <!--</ul>-->
+        <!--</div>-->
+    <!--</div>-->
+    <!--<a href="index.html#" class="bds_print r-w-link02 fx-bt" data-cmd="print" title="分享到打印"><img-->
+            <!--src="../../statics/images/zx/rightIcon02.png" alt=""></a>-->
     <a class="r-w-link03 fx-bt" href="javascript:;"><img src="../../statics/images/zx/rightIcon03.png" alt="">
     </a>
 </div>
@@ -123,46 +103,27 @@
         <ul class="ui-navlist">
 
             <li class="ui-nav-btn ui-nav-aboutBtn ">
-                <a href="../About/index.html">
-                    <div class="nav-btn-tit">关于路加</div>
-                    <i class="nav-btn-bg"></i>
-                </a>
+                <a href="../About/index.html"><div class="nav-btn-tit">关于路加</div><i class="nav-btn-bg"></i></a>
             </li>
 
             <li class="ui-nav-btn">
-                <a href="../News/index.html">
-                    <div class="nav-btn-tit">路加新闻</div>
-                    <i class="nav-btn-bg"></i>
-                </a>
+                <a href="../News/index.html"><div class="nav-btn-tit">路加新闻</div><i class="nav-btn-bg"></i></a>
             </li>
 
             <li class="ui-nav-btn ">
-                <a href="../Business/index.html">
-                    <div class="nav-btn-tit">业务领域</div>
-                    <i class="nav-btn-bg"></i>
-                </a>
+                <a href="../Business/index.html"><div class="nav-btn-tit">业务领域</div><i class="nav-btn-bg"></i></a>
             </li>
 
             <li class="ui-nav-btn ">
-                <a href="../Cooperation/index.html">
-                    <div class="nav-btn-tit">项目合作</div>
-                    <i class="nav-btn-bg"></i>
-                </a>
-            </li>
-
-
-            <li class="ui-nav-btn ">
-                <a href="../Duty/index.html">
-                    <div class="nav-btn-tit">路加责任</div>
-                    <i class="nav-btn-bg"></i>
-                </a>
+                <a href="../Cooperation/index.html"><div class="nav-btn-tit">项目合作</div><i class="nav-btn-bg"></i></a>
             </li>
 
             <li class="ui-nav-btn ">
-                <a href="../Join/index.html">
-                    <div class="nav-btn-tit">联系我们</div>
-                    <i class="nav-btn-bg"></i>
-                </a>
+                <a href="../Duty/index.html"><div class="nav-btn-tit">路加责任</div><i class="nav-btn-bg"></i></a>
+            </li>
+
+            <li class="ui-nav-btn ">
+                <a href="../Join/index.html"><div class="nav-btn-tit">联系我们</div><i class="nav-btn-bg"></i></a>
             </li>
 
             <li class="ui-nav-btn so">
@@ -199,33 +160,33 @@
             <div class="nav-cont-items">
                 <div class="nav-cont-item">
                     <p>
-                        <a href="../About/Brief_Introduction.html"><i></i><span>走进路加</span>
+                        <a href="../About/Brief_Introduction.html"><i></i><span>走进路加</span></a>
                     </p>
-                    </a>
+
                 </div>
                 <div class="nav-cont-item">
                     <p>
-                        <a href="../About/Chairman_Statement.html"><i></i><span>董事长致辞</span>
+                        <a href="../About/Chairman_Statement.html"><i></i><span>董事长致辞</span></a>
                     </p>
-                    </a>
+
                 </div>
                 <div class="nav-cont-item">
                     <p>
-                        <a href="../About/Directors_Senior.html"><i></i><span>集团领导</span>
+                        <a href="../About/Directors_Senior.html"><i></i><span>集团领导</span></a>
                     </p>
-                    </a>
+
                 </div>
                 <div class="nav-cont-item">
                     <p>
-                        <a href="../About/Governance_Risk.html"><i></i><span>路加理念</span>
+                        <a href="../About/Governance_Risk.html"><i></i><span>路加理念</span></a>
                     </p>
-                    </a>
+
                 </div>
                 <div class="nav-cont-item">
                     <p>
-                        <a href="../About/brand_thinking.html"><i></i><span>合作机构</span>
+                        <a href="../About/brand_thinking.html"><i></i><span>合作机构</span></a>
                     </p>
-                    </a></div>
+                </div>
                 <div class="nav-cont-item-bg"></div>
             </div>
         </div>
@@ -245,19 +206,17 @@
             <div class="nav-cont-items">
                 <div class="nav-cont-item">
                     <p>
-                        <a href="../News/index.html"><i></i><span>媒体报道</span>
+                        <a href="../News/news-list.html"><i></i><span>媒体报道</span>
                     </p>
                     </a></div>
                 <div class="nav-cont-item">
                     <p>
-                        <a href="../News/index.html">
-                            <i></i><span>路加动态</span>
+                        <a href="../News/news-list.html"><i></i><span>路加动态</span>
                     </p>
                     </a></div>
                 <div class="nav-cont-item">
                     <p>
-                        <a href="../News/index.html">
-                            <i></i><span>行业动态</span>
+                        <a href="../News/news-list.html"><i></i><span>行业动态</span>
                     </p>
                     </a></div>
                 <div class="nav-cont-item-bg"></div>
@@ -301,20 +260,17 @@
                 <div class="nav-cont-items">
                     <div class="nav-cont-item">
                         <p>
-                            <a href="../Business/Business-kfyy.html">
-                                <i></i><span>康复医院</span></a>
+                            <a href="../Business/Business-kfyy.html"><i></i><span>康复医院</span></a>
                         </p>
                     </div>
                     <div class="nav-cont-item">
                         <p>
-                            <a href="../Business/Business-hygl.html">
-                                <i></i><span>会员管理</span></a>
+                            <a href="../Business/Business-hygl.html"><i></i><span>会员管理</span></a>
                         </p>
                     </div>
                     <div class="nav-cont-item">
                         <p>
-                            <a href="../Business/Business-yxzx.html">
-                                <i></i><span>影像中心</span></a>
+                            <a href="../Business/Business-yyit.html"><i></i><span>智能IT系统</span></a>
                         </p>
                     </div>
 
@@ -325,20 +281,18 @@
                 <div class="nav-cont-items">
                     <div class="nav-cont-item">
                         <p>
-                            <a href="../Business/Business-jzepc.html">
-                                <i></i><span>急诊EPC</span></a>
+                            <a href="../Business/Business-jzepc.html"><i></i><span>急诊方案</span></a>
                         </p>
                     </div>
                     <div class="nav-cont-item">
                         <p>
-                            <a href="../Business/Business-yyit.html"><i></i><span>医院IT</span>
-                            </a>
+                            <a href="../Business/Business-sbjjfa.html"><i></i><span>医疗设备4S服务</span></a>
                         </p>
                     </div>
+
                     <div class="nav-cont-item">
                         <p>
-                            <a href="../Business/Business-sbjjfa.html"><i></i><span>设备解决方案</span>
-                            </a>
+                            <a href="../Business/Business-elx.html"><i></i><span>E路修</span></a>
                         </p>
                     </div>
                     <div class="nav-cont-item-bg"></div>
@@ -362,15 +316,19 @@
             <div class="nav-cont-items">
                 <div class="nav-cont-item">
                     <p>
-                        <a href="../Cooperation/Cooperation.html"><i></i><span>医院案例</span>
+                        <a href="../Cooperation/Cooperation.html"><i></i><span>设备案例</span></a>
                     </p>
-                    </a></div>
+                </div>
                 <div class="nav-cont-item">
                     <p>
-                        <a href="../Cooperation/Cooperation_Application.html">
-                            <i></i><span>合作申请</span>
+                        <a href="../Cooperation/Cooperation2.html"><i></i><span>康复案例</span></a>
                     </p>
-                    </a></div>
+                </div>
+                <div class="nav-cont-item">
+                    <p>
+                        <a href="../Cooperation/Cooperation_Application.html"><i></i><span>合作申请</span></a>
+                    </p>
+                </div>
                 <div class="nav-cont-item-bg"></div>
             </div>
         </div>
@@ -391,25 +349,24 @@
             <div class="nav-cont-items">
                 <div class="nav-cont-item">
                     <p>
-                        <a href="../Duty/Mission.html"><i></i><span>路加使命</span>
+                        <a href="../Duty/Mission.html"><i></i><span>路加使命</span></a>
                     </p>
-                    </a></div>
+                </div>
                 <div class="nav-cont-item">
                     <p>
-                        <a href="../Duty/Wish.html"><i></i><span>路加异象</span>
+                        <a href="../Duty/Wish.html"><i></i><span>路加异象</span></a>
                     </p>
-                    </a></div>
+                </div>
                 <div class="nav-cont-item">
                     <p>
-                        <a href="../Duty/Values.html">
-                            <i></i><span>路加价值观</span>
+                        <a href="../Duty/Values.html"><i></i><span>路加价值观</span></a>
                     </p>
-                    </a></div>
+                </div>
                 <div class="nav-cont-item">
                     <p>
-                        <a href="../Duty/Honor.html"><i></i><span>企业荣誉</span>
+                        <a href="../Duty/Honor.html"><i></i><span>企业荣誉</span></a>
                     </p>
-                    </a></div>
+                </div>
                 <div class="nav-cont-item-bg"></div>
             </div>
         </div>
@@ -430,14 +387,15 @@
             <div class="nav-cont-items">
                 <div class="nav-cont-item">
                     <p>
-                        <a href="../Join/Contact.html"><i></i><span>联系方式</span>
+                        <a href="../join/Recruitment.html"><i></i><span>加入我们</span></a>
                     </p>
-                    </a></div>
+                </div>
                 <div class="nav-cont-item">
                     <p>
-                        <a href="../Join/Recruitment.html"><i></i><span>人力资源</span>
+                        <a href="../Join/Contact.html"><i></i><span>联系方式</span></a>
                     </p>
-                    </a></div>
+                </div>
+
                 <div class="nav-cont-item-bg"></div>
             </div>
         </div>
@@ -449,7 +407,8 @@
             <form action="/html/Search/" method="get" class="header-search">
 
                 <p>
-                    <input type="search" name="q" placeholder="搜索..." class="input-key"/> <span class="top_menu_submit"> <input type="submit" class="se-reBtn" value=""><img src="../../statics/images/zx/icon-search.png"></span>
+                    <input type="search" name="q" placeholder="搜索..." class="input-key"/>
+                    <span class="top_menu_submit"> <input type="submit" class="se-reBtn" value=""><img src="../../statics/images/zx/icon-search.png"></span>
                 </p>
 
             </form>
@@ -461,8 +420,7 @@
     <div class="nav-mobile-item search-bars">
         <form action="/html/Search/" method="get" class="header-search">
             <p>
-                <input type="search" name="q" placeholder="搜索..." class="input-key"/>
-                <span class="top_menu_submit"> <input type="submit" class="se-reBtn" value=""><img src="../../statics/images/zx/icon-search.png"></span>
+                <input type="search" name="q" placeholder="搜索..." class="input-key"/> <span class="top_menu_submit"> <input type="submit" class="se-reBtn" value=""><img src="../../statics/images/zx/icon-search.png"></span>
             </p>
             <!-- <input type="submit" /> -->
         </form>
@@ -530,7 +488,7 @@
             </div>
             <div class="m-sub-menu-item">
                 <p>
-                    <a href="../News/index.html"><i></i><span>行业动态</span>
+                    <a href="../News/news-list.html"><i></i><span>行业动态</span>
                     </a>
                 </p>
             </div>
@@ -560,7 +518,7 @@
             </div>
             <div class="m-sub-menu-item">
                 <p>
-                    <a href="../Business/Business-yxzx.html">
+                    <a href="../Business/Business-elx.html">
                         <i></i><span>影像中心</span></a>
                 </p>
             </div>
@@ -579,7 +537,7 @@
             <div class="m-sub-menu-item">
                 <p>
                     <a href="../Business/Business-sbjjfa.html">
-                        <i></i><span>设备解决方案</span></a>
+                        <i></i><span>4S解决方案</span></a>
                 </p>
             </div>
         </div>
@@ -590,13 +548,19 @@
             <p>
                 <a href="../Cooperation/index.html">项目合作</a>
             </p>
-            <div class="m-menu-arrow"><img src="statics/images/zx/m-menu-arrow-l.png"></div>
+            <div class="m-menu-arrow"><img src="../../statics/images/zx/m-menu-arrow-l.png"></div>
         </div>
         <div class="nav-mobile-subMenus">
             <div class="m-sub-menu-item">
                 <p>
-                    <a href="../Cooperation/Cooperation_Application.html">
-                        <i></i><span>医院案例</span></a>
+                    <a href="../Cooperation/Cooperation.html">
+                        <i></i><span>设备案例</span></a>
+                </p>
+            </div>
+            <div class="m-sub-menu-item">
+                <p>
+                    <a href="../Cooperation/Cooperation2.html">
+                        <i></i><span>康复案例</span></a>
                 </p>
             </div>
             <div class="m-sub-menu-item">
@@ -649,14 +613,15 @@
         <div class="nav-mobile-subMenus">
             <div class="m-sub-menu-item">
                 <p>
-                    <a href="../Join/Contact.html"><i></i><span>联系我们</span></a>
+                    <a href="../Join/Recruitment.html"><i></i><span>加入我们</span></a>
                 </p>
             </div>
             <div class="m-sub-menu-item">
                 <p>
-                    <a href="../Join/Recruitment.html"><i></i><span>人力资源</span></a>
+                    <a href="../Join/Contact.html"><i></i><span>联系我们</span></a>
                 </p>
             </div>
+
 
         </div>
     </div>
@@ -666,105 +631,96 @@
 <div id="full_bg"></div>
 
 
-<div class="company_info hbl-26">
-    <img src="../../statics/images/new/20170428022000778.jpg">
-    <div class="company_info_c company_info_cr clearfix">
-        <div class="bread_nav">您当前位置：
-            <p>
-                <a href="../../index.html" title="">首页</a>
-                <span>/</span>
-                <a href="index.html" title="">业务领域</a>
-            </p>
-        </div>
-        <h2>业务领域</h2>
-        <p>路加参照美国现有康复医院模式，按病患种类划分并提供三大类康复服务：代谢病（预防性）康复；术后康复；老年病康复。康复医院与医院合作，从医院，生命日报会员，影像中心，国外合作等多种渠道导入病患，给予包括康复评估，中西医治疗，饮食规划，运动调节等在内的系统康复治疗。</p>
+<div class="banner_responsibility">
+    <img class="larger" src="../../statics/images/new/20170428022000778.jpg">
+    <div class="banner_max_width">
+        <ul>
+            <li class="q_nav_tit">您当前位置：<p><a href="../../index.html" title="首页">首页</a><span>/</span><a
+                    href="index.html" title="业务领域">业务领域</a></p></li>
+            <li class="title">业务领域</li>
+            <li class="artical">
+
+            </li>
+        </ul>
     </div>
 
 </div>
+<div class="zxresponsibility_right">
+    <div class="back"></div>
+    <div class="content max_width">
+        <div class="big_img"><em></em><img src="../../statics/images/new/20170602062018549_3.png"></div>
+        <ul class="list">
+            <li class="title">康复医院<span></span></li>
+            <li class="artical">路加参照美国现有康复医院模式，按病患种类划分并提供三大类康复服务：代谢病（预防性）康复；术后康复；老年病康复。康复医院与医院合作，从医院，生命日报会员，影像中心，国外合作等多种渠道导入病患，给予包括康复评估，中西医治疗，饮食规划，运动调节等在内的系统康复治疗。
 
-
-<div class="service_cont">
-    <div class="service_cont_c ">
-        <div class="dy_cont_bg"></div>
-        <div class="dy_bank_block clearfix">
-            <div class="banking fl">
-                <em></em> <img src="../../statics/images/new/20180103030551547.jpg" alt=""/>
-            </div>
-            <div class="dy_bankcont fl">
-                <div class="mb-yw-list">
-                    <ul>
-                        <li>
-                            <a href="Business-kfyy.html">康复医院</a>
-                        </li>
-                        <li>
-                            <a href="Business-hygl.html">会员管理</a>
-                        </li>
-                        <li>
-                            <a href="Business-yxzx.html">影像中心</a>
-                        </li>
-                        <li>
-                            <a href="Business-jzepc.html">急诊EPC</a>
-                        </li>
-                        <li>
-                            <a href="Business-yyit.html">医院IT</a>
-                        </li>
-                        <li>
-                            <a href="Business-sbjjfa.html">设备解决方案</a>
-                        </li>
-                    </ul>
-                </div>
-                <p class="bank_tabtit">
-                    <span class="cur">康复医院</span> <span>会员管理</span> <span>影像中心</span> <span>急诊EPC</span>
-                    <span>医院IT</span> <span>设备解决方案</span>
-                </p>
-                <div class="bank_tabcont">
-                    <div class="bank_tab_dy bank_tab_dycur">
-                        <h5>康复医院</h5>
-                        <p>路加参照美国现有康复医院模式，按病患种类划分并提供三大类康复服务：代谢病（预防性）康复；术后康复；老年病康复。康复医院与医院合作，从医院，生命日报会员，影像中心，国外合作等多种渠道导入病患，给予包括康复评估，中西医治疗，饮食规划，运动调节等在内的系统康复治疗。</p>
-                        <a href="Business-kfyy.html" title="银行业务" class="look_more">点击了解更多</a>
-                    </div>
-                    <div class="bank_tab_dy ">
-                        <h5>会员管理</h5>
-                        <p>国内会员：<br>
-                            主要针对：高血压、高血脂、高血糖，三高及肿瘤患者<br>
-                            国外会员：<br>
-                            主要针对：不孕不育、老年病、药瘾等病症患者
-                        </p>
-                        <a href="Business-hygl.html" title="证券业务" class="look_more">点击了解更多</a>
-                    </div>
-                    <div class="bank_tab_dy ">
-                        <h5>影像中心</h5>
-                        <p>路加计划采取“农村包围城市”策略，避开医疗资源丰富的一二线城市，在具有一定经济水平和人口总量的县级市与医院开展合作，建立独立的影像中心。影像中心配置当地最先进的检测仪器，以先进的设备与优质的服务，带动当地的影像医疗发展。</p>
-                        <a href="Business-yxzx.html" title="信托业务" class="look_more">点击了解更多</a>
-                    </div>
-                    <div class="bank_tab_dy ">
-                        <h5>急诊EPC</h5>
-                        <p>在国外，急诊医学己趋于系统化，建立了专业、专科急救网，配备了先进的通讯、抢救设备和有经验的医务人员。
-                            路加医疗提供包含设备、场所、移动医疗和CI设计在内的全套急诊解决方案，真正解决急诊难题，目前已经有项目成功落地，并得到国家急诊协会鼎力支持，有巨大的市场空间。</p>
-                        <a href="Business-jzepc.html" title="保险业务" class="look_more">点击了解更多</a>
-                    </div>
-                    <div class="bank_tab_dy ">
-                        <h5>医院IT</h5>
-                        <p>制作厂商繁多，医院各个系统之间存在接口对接问题；<br>
-                            HIS系统中对于病历书写这块没有统一的标准，医生大多时间都用于在书写病历上，大大减少了对患者的诊治时间；<br>
-                            HIS系统中的收费模块没有与院内财务系统对接，导致医院财务管理工作量增大；<br>
-                            绩效管理方面量化指标不完善；<br>
-                            医院无法实时监控各个科室医生在工作中的态度、质量管控及人员调配情。
-                        </p>
-                        <a href="Business-yyit.html" title="其他金融业务" class="look_more">点击了解更多</a>
-                    </div>
-                    <div class="bank_tab_dy ">
-                        <h5>设备解决方案</h5>
-                        <p>路加通过与厂商、金融机构合作，以ＧＥ、飞利浦、瓦里安、西门子等国际知名品牌的设备为载体，向用户提供涵盖金融、销售、售后、设备管理的4S服务模式。通过4S服务模式，路加不但提供设备的分期付款服务，还提供设备的五年期售后服务，同时还协助医院设备的使用效能管理。</p>
-                        <a href="Business-yyit.html" title="其他金融业务" class="look_more">点击了解更多</a>
-                    </div>
-                </div>
-            </div>
-        </div>
+            </li>
+            <li><a href="Business-kfyy.html" class="more">点击了解更多</a></li>
+        </ul>
     </div>
-
-
 </div>
+<div class="zxresponsibility_left">
+    <div class="back"></div>
+    <div class="content max_width">
+        <ul class="list">
+            <li class="title">会员管理<span></span></li>
+            <li class="artical">路加参照美国现有康复医院模式，按病患种类划分并提供三大类康复服务：代谢病（预防性）康复；术后康复；老年病康复。康复医院与医院合作，从医院，生命日报会员，影像中心，国外合作等多种渠道导入病患，给予包括康复评估，中西医治疗，饮食规划，运动调节等在内的系统康复治疗。
+            </li>
+            <li><a href="Business-hygl.html" class="more">点击了解更多</a></li>
+        </ul>
+        <div class="big_img"><em></em><img src="../../statics/images/new/20171221064618842_3.jpg"></div>
+    </div>
+</div>
+<div class="zxresponsibility_right">
+    <div class="back"></div>
+    <div class="content max_width">
+        <div class="big_img"><em></em><img src="../../statics/images/new/20171221064624461_3.jpg"></div>
+        <ul class="list">
+            <li class="title">智能IT系统<span></span></li>
+            <li class="artical">路加参照美国现有康复医院模式，按病患种类划分并提供三大类康复服务：代谢病（预防性）康复；术后康复；老年病康复。康复医院与医院合作，从医院，生命日报会员，影像中心，国外合作等多种渠道导入病患，给予包括康复评估，中西医治疗，饮食规划，运动调节等在内的系统康复治疗。
+
+            </li>
+            <li><a href="Business-yyit.html" class="more">点击了解更多</a></li>
+        </ul>
+    </div>
+</div>
+<div class="zxresponsibility_left">
+    <div class="back"></div>
+    <div class="content max_width">
+        <ul class="list">
+            <li class="title">急诊方案<span></span></li>
+            <li class="artical">路加参照美国现有康复医院模式，按病患种类划分并提供三大类康复服务：代谢病（预防性）康复；术后康复；老年病康复。康复医院与医院合作，从医院，生命日报会员，影像中心，国外合作等多种渠道导入病患，给予包括康复评估，中西医治疗，饮食规划，运动调节等在内的系统康复治疗。
+            </li>
+            <li><a href="Business-jzepc.html" class="more">点击了解更多</a></li>
+        </ul>
+        <div class="big_img"><em></em><img src="../../statics/images/new/20180330041629484_3.jpg"></div>
+    </div>
+</div>
+<div class="zxresponsibility_right">
+    <div class="back"></div>
+    <div class="content max_width">
+        <div class="big_img"><em></em><img src="../../statics/images/new/20171221064624469_3.jpg"></div>
+        <ul class="list">
+            <li class="title">医疗设备4S服务<span></span></li>
+            <li class="artical">路加参照美国现有康复医院模式，按病患种类划分并提供三大类康复服务：代谢病（预防性）康复；术后康复；老年病康复。康复医院与医院合作，从医院，生命日报会员，影像中心，国外合作等多种渠道导入病患，给予包括康复评估，中西医治疗，饮食规划，运动调节等在内的系统康复治疗。
+
+            </li>
+            <li><a href="Business-sbjjfa.html" class="more">点击了解更多</a></li>
+        </ul>
+    </div>
+</div>
+<div class="zxresponsibility_left">
+    <div class="back"></div>
+    <div class="content max_width">
+        <ul class="list">
+            <li class="title">E路修<span></span></li>
+            <li class="artical">路加参照美国现有康复医院模式，按病患种类划分并提供三大类康复服务：代谢病（预防性）康复；术后康复；老年病康复。康复医院与医院合作，从医院，生命日报会员，影像中心，国外合作等多种渠道导入病患，给予包括康复评估，中西医治疗，饮食规划，运动调节等在内的系统康复治疗。
+            </li>
+            <li><a href="Business-elx.html" class="more">点击了解更多</a></li>
+        </ul>
+        <div class="big_img"><em></em><img src="../../statics/images/new/20180330041629481_3.jpg"></div>
+    </div>
+</div>
+
 <div class="footer">
     <div class="footer-content clearfix">
         <div class="ft-vertical-block">
@@ -772,21 +728,11 @@
                 <div class="ft-nav-tit">关于路加</div>
                 <div class="ft-nav-item">
                     <ul class="">
-                        <li>
-                            <a href="../About/Brief_Introduction.html">走进路加</a>
-                        </li>
-                        <li>
-                            <a href="../About/Chairman_Statement.html">董事长致辞</a>
-                        </li>
-                        <li>
-                            <a href="../About/Directors_Senior.html">集团领导</a>
-                        </li>
-                        <li>
-                            <a href="../About/Governance_Risk.html">路加理念</a>
-                        </li>
-                        <li>
-                            <a href="../About/brand_thinking.html">合作机构</a>
-                        </li>
+                        <li><a href="../About/Brief_Introduction.html">走进路加</a></li>
+                        <li><a href="../About/Chairman_Statement.html">董事长致辞</a></li>
+                        <li><a href="../About/Directors_Senior.html">集团领导</a></li>
+                        <li><a href="../About/Governance_Risk.html">路加理念</a></li>
+                        <li><a href="../About/brand_thinking.html">合作机构</a></li>
                     </ul>
                 </div>
             </div>
@@ -795,15 +741,9 @@
                 <div class="ft-nav-tit">媒体新闻</div>
                 <div class="ft-nav-item">
                     <ul class="">
-                        <li>
-                            <a href="../News/index.html">媒体报道</a>
-                        </li>
-                        <li>
-                            <a href="../News/index.html">路加动态</a>
-                        </li>
-                        <li>
-                            <a href="../News/index.html">行业动态</a>
-                        </li>
+                        <li><a href="../News/news-list.html">媒体报道</a></li>
+                        <li><a href="../News/news-list.html">路加动态</a></li>
+                        <li><a href="../News/news-list.html">行业动态</a></li>
                     </ul>
                 </div>
             </div>
@@ -813,23 +753,21 @@
                 <div class="ft-nav-tit">业务领域</div>
                 <div class="ft-nav-item">
                     <ul class="">
-                        <li>
-                            <a href="Business-kfyy.html">康复医院</a>
+                        <li><a href="../Business/Business-kfyy.html">康复医院</a>
                         </li>
                         <li>
-                            <a href="Business-hygl.html">会员管理</a>
+                            <a href="../Business/Business-hygl.html">会员管理</a>
                         </li>
                         <li>
-                            <a href="Business-yxzx.html">影像中心</a>
+                            <a href="../Business/Business-yyit.html">智能IT系统</a>
                         </li>
                         <li>
-                            <a href="Business-jzepc.html">急诊EPC</a>
+                            <a href="../Business/Business-jzepc.html">急诊方案</a>
                         </li>
                         <li>
-                            <a href="Business-yyit.html">医院IT</a>
+                            <a href="../Business/Business-sbjjfa.html">医疗设备4S服务</a>
                         </li>
-                        <li>
-                            <a href="Business-sbjjfa.html">设备解决方案</a>
+                        <li><a href="../Business/Business-elx.html">E路修</a>
                         </li>
                     </ul>
                 </div>
@@ -840,11 +778,11 @@
             <div class="ft-nav-list">
                 <div class="ft-nav-tit">项目合作</div>
                 <div class="ft-nav-item">
-                    <div class="ft-nav-tit-sml">
-                        <a href="../Cooperation/Cooperation.html">医院案例</a>
+                    <div class="ft-nav-tit-sml"><a href="../Cooperation/Cooperation.html">设备案例</a>
                     </div>
-                    <div class="ft-nav-tit-sml">
-                        <a href="../Cooperation/Cooperation_Application.html">申请合作</a>
+                    <div class="ft-nav-tit-sml"><a href="../Cooperation/Cooperation2.html">康复案例</a>
+                    </div>
+                    <div class="ft-nav-tit-sml"><a href="../Cooperation/Cooperation_Application.html">申请合作</a>
                     </div>
                 </div>
             </div>
@@ -856,33 +794,24 @@
                 <div class="ft-nav-tit">路加责任</div>
                 <div class="ft-nav-item">
                     <ul class="">
-                        <li>
-                            <a href="../Duty/Mission.html">路加使命</a>
+                        <li><a href="Mission.html">路加使命</a>
                         </li>
+                        <li><a href="Wish.html">路加异象</a></li>
                         <li>
-                            <a href="../Duty/Wish.html">路加异象</a>
+                            <a href="Values.html">路加价值观</a>
                         </li>
-                        <li>
-                            <a href="../Duty/Values.html">路加价值观</a>
-                        </li>
-                        <li>
-                            <a href="../Duty/Honor.html">企业荣誉</a>
+                        <li><a href="Honor.html">企业荣誉</a>
                         </li>
                     </ul>
                 </div>
             </div>
 
             <div class="ft-nav-list">
-                <div class="ft-nav-tit">加入路加</div>
+                <div class="ft-nav-tit">联系我们</div>
                 <div class="ft-nav-item">
                     <ul class="">
-                        <li>
-                            <a href="../Join/Contact.html">联系我们</a>
-                        </li>
-                        <li>
-                            <a href="../Join/Recruitment.html">人力资源</a>
-                        </li>
-
+                        <li><a href="../Join/Recruitment.html">加入我们</a></li>
+                        <li><a href="../Join/Contact.html">联系方式</a></li>
                     </ul>
                 </div>
             </div>
@@ -924,8 +853,7 @@
         <ul class="">
 
             <li>
-                <a href="http://www.lukemedgroup.com/">北京路加医疗设备维修有限公司</a>
-                <i>•</i></li>
+                <a href="http://www.lukemedgroup.com/">北京路加医疗设备维修有限公司</a> <i>•</i></li>
 
             <li>
                 <a href="uploadfile/2018/0321/20180321035649167.pdf" target="_blank">联系我们</a>
@@ -939,7 +867,6 @@
 </div>
 </div>
 
-<script type="text/javascript" src="../../statics/js/gb2big5.js"></script>
 
 </body>
 </html>
