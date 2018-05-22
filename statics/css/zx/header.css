@@ -409,7 +409,7 @@
     right: 0;*/
     z-index: 2;
     width: 24%;
-    min-width: 235px;
+    min-width: 400px;
     background-color: #f2f0f0;
     height: 100%;
     /*padding-left: 50px;*/
@@ -453,6 +453,7 @@
 	cursor: pointer;
 	z-index: 2;
 	position: relative;
+
 }
 
 .nav-cont-list .nav-cont-items .nav-cont-item.on,.nav-cont-list .nav-cont-items .nav-cont-item:hover{
@@ -483,6 +484,7 @@
 .nav-cont-list .nav-cont-items .nav-cont-item p{
 	line-height: 50px;
 	padding-left: 50px;
+
 }
 .nav-cont-list .nav-cont-items .nav-cont-item p a span{
 	background: url("../../images/zx/bus-nav-icon02.png") no-repeat;
